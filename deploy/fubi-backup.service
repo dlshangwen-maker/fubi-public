@@ -1,0 +1,15 @@
+[Unit]
+Description=伏笔 数据备份（数据库在线备份 + 导入的书）
+
+[Service]
+Type=oneshot
+User=fubi
+Group=fubi
+WorkingDirectory=/opt/fubi/current
+EnvironmentFile=/etc/fubi/fubi.env
+Environment=FUBI_BACKUP_DIR=/var/backups/fubi
+ExecStart=/usr/bin/python3 server/backup.py backup
+NoNewPrivileges=true
+ProtectSystem=full
+ReadWritePaths=/var/backups/fubi /var/lib/fubi
+PrivateTmp=true

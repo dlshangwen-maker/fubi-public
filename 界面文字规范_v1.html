@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>伏笔 · 界面文字规范 v1</title>
+<style>
+:root{color-scheme:light;--paper:#ECEFE9;--sheet:#F7F8F5;--ink:#1F2A26;--ink2:#2C3733;--mute:#66706B;--faint:#9AA39D;--line:#C9CFC7;--blue:#2F4A8C;--hl:#D9A92B;--hl-soft:rgba(217,169,43,.25);
+  --serif:"Songti SC","Noto Serif SC","Source Han Serif SC",serif;--sans:"PingFang SC","Hiragino Sans GB","Noto Sans SC",system-ui,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.75}
+main{max-width:860px;margin:0 auto;padding:40px 24px 80px}
+h1{font-family:var(--serif);font-size:26px;font-weight:600;margin:0 0 6px}
+h2{font-family:var(--serif);font-size:20px;font-weight:600;margin:48px 0 12px;padding-top:20px;border-top:1px solid var(--line)}
+h3{font-size:14px;font-weight:600;color:var(--mute);margin:24px 0 8px}
+p{margin:0 0 12px}
+.lede{color:var(--mute)}
+table{width:100%;border-collapse:collapse;background:var(--sheet);border-radius:10px;overflow:hidden;margin:8px 0 16px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{font-size:13px;font-weight:600;color:var(--mute);background:#E4E8E1}
+tr:last-child td{border-bottom:0}
+td.k{white-space:nowrap;font-weight:600}
+td.spec{white-space:nowrap;font-size:13px;color:var(--mute)}
+td.old{color:var(--mute)}
+.keep{display:inline-block;font-size:12px;color:var(--blue);border:1px solid var(--blue);border-radius:10px;padding:0 6px;margin-left:4px}
+.s{display:block}
+.box{background:var(--sheet);border-radius:12px;padding:18px 20px;margin:10px 0 16px}
+.sum{font-family:var(--serif);font-size:16px;line-height:1.85}
+.sum h4{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--mute);margin:0 0 8px}
+.sum .ai{font-family:var(--sans);font-size:12px;color:var(--faint);margin-top:10px}
+ul{margin:0 0 12px;padding-left:20px}
+li{margin:4px 0}
+</style>
+</head>
+<body>
+<main>
+<h1>界面文字规范 v1</h1>
+<p class="lede">2026-10-19。包括三部分：字号层级、文案改写、导出时的 AI 小结。确认后统一替换进 demo。</p>
+
+<h2>一、字号层级：从 30 多种收成 8 级</h2>
+<p>现在的问题：字号有 30 多种（13、13.5、14、14.5……很多只差半号）；粗体用在 19 处，有的是标题，有的是普通说明；面板里的白话解释用 19 号，比正文还大，抢了正文的位置。</p>
+<p>原则：<b>正文最大、最安静；界面文字一律比正文小</b>。层级靠字号和颜色区分，粗体只给标题和分组名，句子里不用粗体。衬线体（宋体）只用于书的内容和书名、人名；界面说明一律用无衬线体（苹方）。</p>
+
+<table>
+<tr><th>级别</th><th>样子</th><th>规格</th><th>用在哪里</th></tr>
+<tr><td class="k">正文</td><td><span class="s" style="font-family:var(--serif);font-size:18px;line-height:1.9">士隐送雨村去后，回房一觉，直至红日三竿方醒。</span></td><td class="spec">宋体 18（随设置）<br>常规 · 墨色</td><td>只用于书的正文。字号由读者在设置里调，其他文字都不跟着变</td></tr>
+<tr><td class="k">章标题</td><td><span class="s" style="font-family:var(--serif);font-size:20px;font-weight:600;letter-spacing:.1em">甄士隐梦幻识通灵</span></td><td class="spec">宋体 正文×1.1<br>粗 · 墨色</td><td>回目、《逻辑哲学论》七个主干命题</td></tr>
+<tr><td class="k">页面标题</td><td><span class="s" style="font-family:var(--serif);font-size:22px;font-weight:600">书架</span></td><td class="spec">宋体 22<br>粗 · 墨色</td><td>书架页标题。全产品只有这一处</td></tr>
+<tr><td class="k">面板标题</td><td><span class="s" style="font-family:var(--serif);font-size:18px;font-weight:600">伏笔　·　王熙凤　·　第一回</span></td><td class="spec">宋体 18<br>粗 · 墨色</td><td>所有弹出面板顶部的标题：解释、伏笔、笔记、导览、人物卡、设置</td></tr>
+<tr><td class="k">重点句</td><td><span class="s" style="font-family:var(--serif);font-size:17px;line-height:1.65">僧人为什么说英莲是“有命无运、累及爹娘之物”？</span></td><td class="spec">宋体 17<br>常规 · 墨色</td><td>面板里最重要的一句：伏笔的问题、解释的第一句白话（原 19 号）、提问的回答开头、人物卡的当前身份、书架上的书名</td></tr>
+<tr><td class="k">说明正文</td><td><span class="s" style="font-size:15px;line-height:1.8;color:var(--ink2)">甄士隐梦中仙风道骨的僧道，现实中却是“癞头跣足”“跛足蓬头”的模样。</span></td><td class="spec">苹方 15<br>常规 · 深灰</td><td>面板里成段的内容：解释的展开部分、回收解释、回答正文、回顾、我的想法和猜想</td></tr>
+<tr><td class="k">分组名</td><td><span class="s" style="font-size:13px;font-weight:600;color:var(--mute)">未回收的伏笔</span></td><td class="spec">苹方 13<br>粗 · 灰</td><td>面板里的小标题：“已知信息”“人物关系”“背景知识”“前面几回”</td></tr>
+<tr><td class="k">辅助小字</td><td><span class="s" style="font-size:13px;color:var(--mute)">读到答案处将自动回收。</span></td><td class="spec">苹方 13<br>常规 · 灰</td><td>一句话说明、空状态、提示条</td></tr>
+<tr><td class="k">标签</td><td><span class="s" style="font-size:12px;color:var(--mute)">第一回　·　6 成把握　·　21 段</span></td><td class="spec">苹方 12<br>常规（标签色块内为中粗）</td><td>位置、把握、段数、“书里埋的 / 我埋的 / 划线”等色块标签</td></tr>
+<tr><td class="k">导航</td><td><span class="s" style="font-size:11px;color:var(--mute)">导览　伏笔　笔记　设置</span></td><td class="spec">苹方 11<br>常规 · 灰</td><td>底部导航文字</td></tr>
+</table>
+
+<h3>粗体只用在这几处</h3>
+<ul>
+<li>章标题、页面标题、面板标题、分组名。</li>
+<li>列表里的人名、书名（人物列表、人物关系、书架）。</li>
+<li>按钮里被选中的那一项（如“入门 / 标准 / 深入”中当前选中的）。</li>
+</ul>
+<p>其余地方一律不加粗，包括提示、说明和“读到这里，你知道的”这类句子。</p>
+
+<h3>颜色只用三级</h3>
+<ul>
+<li><b>墨色</b>：正文、标题、重点句。</li>
+<li><b>深灰</b>：面板里的说明正文。</li>
+<li><b>灰</b>：分组名、辅助小字、标签、导航。另外保留“浅灰”只用于禁用状态（如“三体 I · 制作中”）。</li>
+</ul>
+<p>蓝色只表示“可以点”，黄色只表示“伏笔”，不再兼作强调色。</p>
+
+<h2>二、文案改写</h2>
+<p>口径：书面、简洁、平静，参照出版物和成熟的阅读 App。称呼用“你”。轻松感靠简短，不靠聊天口气；不用感叹号，不夸读者。去掉所有“demo”“以后接上 AI 模型”这类开发阶段的话；测试版的说明集中到书架底部一处。</p>
+<p>标 <span class="keep">保留</span> 的是你之前定过的措辞，不改。</p>
+
+<h3>书架和书籍信息</h3>
+<table>
+<tr><th style="width:45%">现在</th><th>改后</th></tr>
+<tr><td class="old">点开一本，从上次停下的地方接着读。长按封面看书的详情。</td><td>轻点继续阅读，长按查看书籍信息。</td></tr>
+<tr><td class="old">内部测试版。《红楼梦》正文为公版程乙本（维基文库，标点为后人所加）；《逻辑哲学论》中译文仅供内部测试，未获授权，请勿外传。阅读进度、笔记只保存在这台设备的浏览器里。</td><td>测试版。《红楼梦》采用程乙本（维基文库，公有领域，标点为后人所加）；《逻辑哲学论》中译本仅供内部测试，请勿外传。阅读记录仅保存在本设备。</td></tr>
+<tr><td class="old">《三体 I》还在准备中。长按封面可以看详情。</td><td>《三体 I》尚在制作中。</td></tr>
+<tr><td class="old">解释、伏笔和人物卡都只写到你读到的地方，不提后文。</td><td>解释、伏笔和人物信息均以你的阅读进度为界，不涉及后文。</td></tr>
+<tr><td class="old">一百二十回。这个 demo 只有前五回</td><td>一百二十回。本测试版收录前五回</td></tr>
+</table>
+
+<h3>阅读页</h3>
+<table>
+<tr><th style="width:45%">现在</th><th>改后</th></tr>
+<tr><td class="old">看不懂？点一下这段话。带下划线的人名，可以点开看是谁</td><td>轻点段落查看解释，轻点带下划线的人名查看人物。</td></tr>
+<tr><td class="old">看不懂？点一下这句话</td><td>轻点命题查看解释。</td></tr>
+<tr><td class="old">前五回完 / 这个 demo 只有前五回 / 导出这一路的读书笔记</td><td>前五回完 / 本测试版收录至第五回 / 导出读书笔记</td></tr>
+<tr><td class="old">前五回读完了。一路的伏笔、猜想和笔记，可以在“笔记”里导出。</td><td>已读完前五回。可在“笔记”中导出读书笔记。</td></tr>
+<tr><td class="old">答案在后面的书里。下次打开，从第三回接着读。</td><td>答案在后文。下次将从第三回继续。</td></tr>
+</table>
+
+<h3>解释卡片和提问</h3>
+<table>
+<tr><th style="width:45%">现在</th><th>改后</th></tr>
+<tr><td class="old">读这条需要知道</td><td>背景知识</td></tr>
+<tr><td class="old">可以问问（卡片底部）／可以这样问（输入条）</td><td>常见问题／参考问题</td></tr>
+<tr><td class="old">有想法、有疑问，都可以写（可不写）</td><td>记下想法或疑问（选填）</td></tr>
+<tr><td class="old">想到什么，或者哪里没看懂……</td><td>写下想法或疑问</td></tr>
+<tr><td class="old">写的内容还没保存，确定不要了吗？（划线会保留）</td><td>内容尚未保存，确定放弃？划线将保留。</td></tr>
+<tr><td class="old">记为想法。［其实是提问］</td><td>已记为想法。［改为提问］</td></tr>
+<tr><td class="old">答案在你读过的部分里</td><td>答案在已读部分</td></tr>
+<tr><td class="old">后面有你想要的答案</td><td>后面有你想要的答案 <span class="keep">保留</span></td></tr>
+<tr><td class="old">先回去看看</td><td>先回去看看 <span class="keep">保留</span></td></tr>
+<tr><td class="old">这个问题，书后面会讲到。可以先埋下伏笔，接着往下读。读到答案的地方，会自动提醒你，还会把你现在的猜想翻出来。</td><td>后文会回答这个问题。可将它埋为伏笔，读到答案处时会提醒你。</td></tr>
+<tr><td class="old">这个问题，demo 里还没有现成的回答（这本书目前只预先写了 21 个示范问题）。可以先埋成伏笔带着读……以后接上 AI 模型，它会自己判断答案在哪……</td><td>此问题暂无回答。可将它埋为伏笔，读到答案时手动回收。</td></tr>
+<tr><td class="old">答案在这个 demo 之后的部分。埋下的伏笔会一直留着，等以后的版本接上。</td><td>答案在本测试版之后的章节。伏笔会一直保留。</td></tr>
+<tr><td class="old">这是预先写好的示范回答。以后接上 AI 模型，会按你读到的位置实时回答。</td><td>测试版的回答为预先撰写。</td></tr>
+<tr><td class="old">没有记下这个问题，划线保留。</td><td>未保存提问，划线已保留。</td></tr>
+<tr><td class="old">记下了这个问题</td><td>已记下这个问题</td></tr>
+</table>
+
+<h3>伏笔</h3>
+<table>
+<tr><th style="width:45%">现在</th><th>改后</th></tr>
+<tr><td class="old">发现了一处伏笔／伏笔回收／埋下伏笔／我找到答案了</td><td>不变 <span class="keep">保留</span></td></tr>
+<tr><td class="old">页边闪光的黄色菱形，是书里埋下的伏笔。点开才会看到问题。［点开看看］</td><td>页边的黄色菱形是一处伏笔，轻点查看问题。［查看］</td></tr>
+<tr><td class="old">读到这里，可以带着这个问题往下读。想好了可以写下你的猜想，读到伏笔回收的地方，猜想会被翻出来。伏笔是阅读引导，不评对错。</td><td>带着这个问题继续读。你写下的猜想会在回收处重新出现。<br><span style="color:var(--mute);font-size:13px">（只在第一次打开伏笔时再加一句：伏笔只是阅读引导，不判对错。）</span></td></tr>
+<tr><td class="old">［先读着］［写猜想］</td><td>［继续阅读］［写猜想］</td></tr>
+<tr><td class="old">你觉得作者会怎么回答？写你的理由也行。</td><td>你认为答案是什么？可附上理由。</td></tr>
+<tr><td class="old">猜想只给你自己看。读到作者回应的地方，它会被翻出来。</td><td>猜想仅自己可见，将在回收处重新出现。</td></tr>
+<tr><td class="old">就是你刚读过的这一段，已经划了黄线。对照一下你当时的想法。</td><td>回收段落已在正文中标黄。</td></tr>
+<tr><td class="old">读到答案的地方会自动回收</td><td>读到答案处将自动回收</td></tr>
+<tr><td class="old">这个问题的答案位置还判断不了，读到答案时自己点回收</td><td>读到答案时，请手动标记回收</td></tr>
+<tr><td class="old">答案是什么？写一句给以后的自己（可不写）</td><td>记下答案（选填）</td></tr>
+<tr><td class="old">没有未回收的伏笔了。</td><td>暂无未回收的伏笔。</td></tr>
+<tr><td class="old">读着读着，页边会亮起闪光的黄色菱形，那是书里埋下的伏笔，点开才会看到问题。你也可以自己埋伏笔：按住正文选字，点“提问”。</td><td>阅读时，页边的黄色菱形标记书中的伏笔。你也可以选中文字提问，埋下自己的伏笔。</td></tr>
+<tr><td class="old">还没有回收的伏笔。读到作者回应的地方，伏笔会自动回收，出现在这里。</td><td>暂无已回收的伏笔。</td></tr>
+<tr><td class="old">书里的伏笔已关闭（阅读引导在底部“设置”里）。你自己埋的伏笔照常显示。</td><td>书中伏笔已关闭，可在“设置 › 阅读引导”中开启。你埋下的伏笔不受影响。</td></tr>
+</table>
+
+<h3>笔记、导览、人物</h3>
+<table>
+<tr><th style="width:45%">现在</th><th>改后</th></tr>
+<tr><td class="old">还没有记录。按住正文拖动选字，可以划线、记想法或提问；点顶栏右上角可以加书签。</td><td>暂无记录。长按并拖动选择文字，可划线、记想法或提问；轻点右上角图标添加书签。</td></tr>
+<tr><td class="old">点顶栏右上角的书签图标，给当前位置加书签。</td><td>轻点右上角图标，为当前位置添加书签。</td></tr>
+<tr><td class="old">这里还是空的。按住正文拖动选字试试。</td><td>暂无记录。</td></tr>
+<tr><td class="old">有想法或疑问，可以写下来。（点划线后）</td><td>可为这段划线记下想法或疑问。</td></tr>
+<tr><td class="old">这段划线上有一条想法。删除划线后，它还会留在“笔记”里。确定删除吗？</td><td>这段划线附有一条想法，删除后想法仍保留在“笔记”中。确定删除？</td></tr>
+<tr><td class="old">伏笔和猜想、划线、想法、提问，整理成一份</td><td>汇总伏笔、猜想、划线、想法与提问</td></tr>
+<tr><td class="old">已存成文件（Markdown 格式，备忘录、笔记软件都能打开）。</td><td>已保存为 Markdown 文件。</td></tr>
+<tr><td class="old">已复制，可以粘贴到备忘录或笔记软件里。</td><td>已复制到剪贴板。</td></tr>
+<tr><td class="old">这个浏览器不让复制，试试“存成文件”。</td><td>当前浏览器不支持复制，请使用“存成文件”。</td></tr>
+<tr><td class="old">从第一回开始读，读过的回会在这里出现。</td><td>已读的回目将在此显示。</td></tr>
+<tr><td class="old">从第 1 条开始读，读过的部分会在这里长出来。／没读到的部分不显示。</td><td>已读部分将在此显示。／仅显示已读部分。</td></tr>
+<tr><td class="old">编号就是这本书的目录：1、2、3 是主干，1.1 解释 1，1.11 解释 1.1。先抓主干，再往下读注释。</td><td>编号即目录：1、2、3 为主干，1.1 是对 1 的注释，1.11 是对 1.1 的注释。</td></tr>
+<tr><td class="old">这一回还没读完，后面的不显示。</td><td>本回尚未读完，其余小节暂不显示。</td></tr>
+<tr><td class="old">读到的人物会出现在这里。正文里带下划线的名字，点一下就能看是谁。</td><td>已出场的人物将在此显示。</td></tr>
+<tr><td class="old">只列你已经读到的人物，按出场先后排。人物卡只写到你读到的地方。</td><td>按出场先后排列，信息以阅读进度为界。</td></tr>
+<tr><td class="old">读到这里，你知道的／和谁有关系（只列已出场的）</td><td>已知信息／人物关系</td></tr>
+<tr><td class="old">人物卡只写到你读到的地方，不提后文。（人物卡底部）</td><td>删去（导览里已说明一次）</td></tr>
+</table>
+
+<h3>回顾和设置</h3>
+<table>
+<tr><th style="width:45%">现在</th><th>改后</th></tr>
+<tr><td class="old">隔了 9 天，先帮你接上。上次停在第四回，读到的地方前面刚讲完：……</td><td>距上次阅读 9 天。上次读到第四回，此前：……</td></tr>
+<tr><td class="old">想多看一点</td><td>查看完整回顾</td></tr>
+<tr><td class="old">还有 2 个，在底部“伏笔”里。</td><td>另有 2 个，见“伏笔”。</td></tr>
+<tr><td class="old">页边亮起书里埋的伏笔，点开才显示问题（阅读引导）</td><td>在页边标记书中的伏笔</td></tr>
+<tr><td class="old">清空后，进度、书签、划线、想法、问题和猜想都会删除。确定吗？</td><td>将删除本书的进度、书签、划线、想法、提问与猜想。确定清空？</td></tr>
+</table>
+
+<h2>三、导出时的 AI 小结</h2>
+<p>放在导出的读书笔记最前面，下面是原样保留的划线、想法、伏笔和提问。</p>
+<h3>规则（写进提示词）</h3>
+<ul>
+<li><b>写你的阅读，不写书的梗概。</b>依据只有两样：你的记录，和你读过的原文。</li>
+<li><b>不越过阅读进度。</b>不提未读内容，也不暗示后文；判词、伏笔一律按已读部分说。</li>
+<li><b>引用你的原话必须一字不差</b>，并标明出处（第几回）。</li>
+<li><b>不评判。</b>不说“猜对了”，也不夸“很敏锐”；只把当时的猜想和原文后来的写法并排放。</li>
+<li><b>结尾给一到两个可以接着想的问题</b>，必须从你自己的笔记里引出来。</li>
+<li>长度 200～400 字；记录少于 5 条时不生成。</li>
+<li>标明“AI 整理”，读者可以改，也可以删。</li>
+</ul>
+<h3>示例（按一份假设的阅读记录写成）</h3>
+<div class="box sum">
+<h4>这一程的阅读</h4>
+<p>读到第五回。你的 9 条划线里，有 5 条落在贾雨村身上：甄士隐赠银、他不辞而别、门子献计。第一回你问“雨村是个什么样的人”，猜他“心高气傲，不愿受人恩惠”，六成把握。到第四回，你在“徇情枉法”四个字下划了线，写道：“原来不是心高，是心冷。”</p>
+<p>对王熙凤，你在第二回冷子兴那句“心机又极深细”旁写了“是夸还是贬？”；第三回她出场，你划了“我来迟了，没得迎接远客”。</p>
+<p>还挂着的问题有两个：绛珠草要怎样还泪；判词“玉带林中挂，金簪雪里埋”说的是谁。</p>
+<p>可以接着想：你说雨村“心冷”。第二回智通寺那副对联，“身后有余忘缩手，眼前无路想回头”，放在他身上读，会是什么意思？</p>
+<p class="ai">AI 整理 · 依据你的划线、想法和猜想 · 可编辑</p>
+</div>
+<p>demo 里怎么放：现在没有 API 密钥，生成不了真实的小结。导出区先放一个“生成小结”按钮，注明接入模型后可用；旁边“查看示例”打开上面这份示例。提示词同时写好，存进 <code>生成/流水线/</code>，有了密钥就能接上。</p>
+
+<h2>需要你确认</h2>
+<ul>
+<li>字号层级这 8 级（加导航共 10 行）是否合适，特别是：解释卡片的第一句从 19 号降到 17 号。</li>
+<li>文案改写是否同意；哪几句想保留原来的说法。</li>
+<li>AI 小结的规则和示例的写法是否合你的预期。</li>
+</ul>
+</main>
+</body>
+</html>

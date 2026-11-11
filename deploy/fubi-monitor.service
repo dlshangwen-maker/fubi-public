@@ -1,0 +1,17 @@
+[Unit]
+Description=伏笔 巡检与告警
+
+[Service]
+Type=oneshot
+User=fubi
+Group=fubi
+WorkingDirectory=/opt/fubi/current
+EnvironmentFile=/etc/fubi/fubi.env
+Environment=FUBI_BACKUP_DIR=/var/backups/fubi
+Environment=FUBI_LOG_DIR=/var/log/fubi
+ExecStart=/usr/bin/python3 server/monitor.py
+NoNewPrivileges=true
+ProtectSystem=full
+ReadWritePaths=/var/lib/fubi
+ReadOnlyPaths=/var/log/fubi /var/backups/fubi
+PrivateTmp=true

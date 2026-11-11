@@ -1,0 +1,10 @@
+[Unit]
+Description=伏笔 每 2 分钟巡检
+
+[Timer]
+OnBootSec=3min
+OnUnitActiveSec=2min
+AccuracySec=30s
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,24 @@
+[Unit]
+Description=伏笔 阅读服务
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=fubi
+Group=fubi
+WorkingDirectory=/opt/fubi/current
+EnvironmentFile=/etc/fubi/fubi.env
+Environment=FUBI_BACKUP_DIR=/var/backups/fubi
+Environment=FUBI_LOG_DIR=/var/log/fubi
+ExecStart=/usr/bin/python3 server/app.py
+Restart=always
+RestartSec=3
+# 和同一台机器上的其他程序分开：限制内存、不许提权、只许写自己的数据目录
+MemoryMax=1200M
+NoNewPrivileges=true
+ProtectSystem=full
+ReadWritePaths=/var/lib/fubi /var/log/fubi
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

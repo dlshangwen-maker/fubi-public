@@ -1,0 +1,6 @@
+# 把 read.example.com 换成你的域名（域名要先解析到这台服务器）
+read.example.com {
+    encode gzip
+    request_body { max_size 60MB }
+    reverse_proxy fubi:8080
+}

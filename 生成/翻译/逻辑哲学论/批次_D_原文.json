@@ -1,0 +1,535 @@
+{
+ "批次": "D",
+ "命题": [
+  {
+   "n": "6",
+   "de": "Die allgemeine Form der Wahrheitsfunktion ist: [p̄, ξ̄, N(ξ̄)]. Dies ist die allgemeine Form des Satzes.",
+   "en": "The general form of truth-function is: [p̄, ξ̄, N(ξ̄)]. This is the general form of proposition."
+  },
+  {
+   "n": "6.001",
+   "de": "Dies sagt nichts anderes, als dass jeder Satz ein Resultat der successiven Anwendung der Operation N’(ξ̄) auf die Elementarsätze ist.",
+   "en": "This says nothing else than that every proposition is the result of successive applications of the operation N’(ξ̄) to the elementary propositions."
+  },
+  {
+   "n": "6.002",
+   "de": "Ist die allgemeine Form gegeben, wie ein Satz gebaut ist, so ist damit auch schon die allgemeine Form davon gegeben, wie aus einem Satz durch eine Operation ein anderer erzeugt werden kann.",
+   "en": "If we are given the general form of the way in which a proposition is constructed, then thereby we are also given the general form of the way in which by an operation out of one proposition another can be created."
+  },
+  {
+   "n": "6.01",
+   "de": "Die allgemeine Form der Operation Ω’(η̄) ist also: [ξ̄, N(ξ̄)]’(η̄) (= [η̄, ξ̄, N(ξ̄)]). Das ist die allgemeinste Form des Überganges von einem Satz zum anderen.",
+   "en": "The general form of the operation Ω’(η̄) is therefore: [ξ̄, N(ξ̄)]’(η̄) (= [η̄, ξ̄, N(ξ̄)]). This is the most general form of transition from one proposition to another."
+  },
+  {
+   "n": "6.02",
+   "de": "Und so kommen wir zu den Zahlen: Ich definiere x = Ω^{0}’ x Def. und Ω’Ω^{ν}’x = Ω^{ν+1}’x Def. Nach diesen Zeichenregeln schreiben wir also die Reihe x, Ω’x, Ω’Ω’x, Ω’Ω’Ω’x, \\fivedots \\[ so: Ω^{0}’x, Ω^{0+1}’x, Ω^{0+1+1}’x, Ω^{0+1+1+1}’x, \\fivedots \\] Also schreibe ich statt „[x, ξ, Ω’ξ]“: \\[ \\quotedblbase [Ω^{0}’x, Ω^{ν}’x, Ω^{ν+1}’x]\\text{“.} \\] Und definiere: \\[ 0 + 1 = 1 Def. 0 + 1 + 1 = 2 Def. 0 + 1 + 1 + 1 = 3 Def. (u. s. f.) \\]",
+   "en": "And thus we come to numbers: I define x = Ω^{0}’ x Def. and Ω’Ω^{ν}’x = Ω^{ν+1}’x Def. According, then, to these symbolic rules we write the series x, Ω’x, Ω’Ω’x, Ω’Ω’Ω’x\\fivedots \\[ as: Ω^{0}’x, Ω^{0+1}’x, Ω^{0+1+1}’x, Ω^{0+1+1+1}’x\\fivedots \\] Therefore I write in place of \"[x, ξ, Ω’ξ]\", \\[ \"[Ω^{0}’x, Ω^{ν}’x, Ω^{ν+1}’x]\". \\] And I define: \\[ 0 + 1 = 1 Def. 0 + 1 + 1 = 2 Def. 0 + 1 + 1 + 1 = 3 Def. and so on. \\]"
+  },
+  {
+   "n": "6.021",
+   "de": "Die Zahl ist der Exponent einer Operation.",
+   "en": "A number is the exponent of an operation."
+  },
+  {
+   "n": "6.022",
+   "de": "Der Zahlbegriff ist nichts anderes, als das Gemeinsame aller Zahlen, die allgemeine Form der Zahl. Der Zahlbegriff ist die variable Zahl. Und der Begriff der Zahlengleichheit ist die allgemeine Form aller speziellen Zahlengleichheiten.",
+   "en": "The concept number is nothing else than that which is common to all numbers, the general form of number. The concept number is the variable number. And the concept of equality of numbers is the general form of all special equalities of numbers."
+  },
+  {
+   "n": "6.03",
+   "de": "Die allgemeine Form der ganzen Zahl ist: [0, ξ, ξ + 1].",
+   "en": "The general form of the cardinal number is: [0, ξ, ξ + 1]."
+  },
+  {
+   "n": "6.031",
+   "de": "Die Theorie der Klassen ist in der Mathematik ganz überflüssig. Dies hängt damit zusammen, dass die Allgemeinheit, welche wir in der Mathematik brauchen, nicht die zufällige ist.",
+   "en": "The theory of classes is altogether superfluous in mathematics. This is connected with the fact that the generality which we need in mathematics is not the accidental one."
+  },
+  {
+   "n": "6.1",
+   "de": "Die Sätze der Logik sind Tautologien.",
+   "en": "The propositions of logic are tautologies."
+  },
+  {
+   "n": "6.11",
+   "de": "Die Sätze der Logik sagen also Nichts. (Sie sind die analytischen Sätze.)",
+   "en": "The propositions of logic therefore say nothing. (They are the analytical propositions.)"
+  },
+  {
+   "n": "6.111",
+   "de": "Theorien, die einen Satz der Logik gehaltvoll erscheinen lassen, sind immer falsch. Man könnte z. B. glauben, dass die Worte „wahr“ und „falsch“ zwei Eigenschaften unter anderen Eigenschaften bezeichnen, und da erschiene es als eine merkwürdige Tatsache, dass jeder Satz eine dieser Eigenschaften besitzt. Das scheint nun nichts weniger als selbstverständlich zu sein, ebensowenig selbstverständlich, wie etwa der Satz, „alle Rosen sind entweder gelb oder rot“ klänge, auch wenn er wahr wäre. Ja, jener Satz bekommt nun ganz den Charakter eines naturwissenschaftlichen Satzes und dies ist das sichere Anzeichen dafür, dass er falsch aufgefasst wurde.",
+   "en": "Theories which make a proposition of logic appear substantial are always false. One could e.g. believe that the words \"true\" and \"false\" signify two properties among other properties, and then it would appear as a remarkable fact that every proposition possesses one of these properties. This now by no means appears self-evident, no more so than the proposition \"All roses are either yellow or red\" would sound even if it were true. Indeed our proposition now gets quite the character of a proposition of natural science and this is a certain symptom of its being falsely understood."
+  },
+  {
+   "n": "6.112",
+   "de": "Die richtige Erklärung der logischen Sätze muss ihnen eine einzigartige Stellung unter allen Sätzen geben.",
+   "en": "The correct explanation of logical propositions must give them a peculiar position among all propositions."
+  },
+  {
+   "n": "6.113",
+   "de": "Es ist das besondere Merkmal der logischen Sätze, dass man am Symbol allein erkennen kann, dass sie wahr sind, und diese Tatsache schliesst die ganze Philosophie der Logik in sich. Und so ist es auch eine der wichtigsten Tatsachen, dass sich die Wahrheit oder Falschheit der nicht-logischen Sätze nicht am Satz allein erkennen lässt.",
+   "en": "It is the characteristic mark of logical propositions that one can perceive in the symbol alone that they are true; and this fact contains in itself the whole philosophy of logic. And so also it is one of the most important facts that the truth or falsehood of non-logical propositions can not be recognized from the propositions alone."
+  },
+  {
+   "n": "6.12",
+   "de": "Dass die Sätze der Logik Tautologien sind, das zeigt die for\\-ma\\-len—lo\\-gi\\-schen—Ei\\-gen\\-schaf\\-ten der Sprache, der Welt. Dass ihre Bestandteile so verknüpft eine Tautologie ergeben, das charakterisiert die Logik ihrer Bestandteile. Damit Sätze, auf bestimmte Art und Weise verknüpft, eine Tautologie ergeben, dazu müssen sie bestimmte Eigenschaften der Struktur haben. Dass sie so verbunden eine Tautologie ergeben, zeigt also, dass sie diese Eigenschaften der Struktur besitzen.",
+   "en": "The fact that the propositions of logic are tautologies shows the for\\-mal—log\\-i\\-cal—prop\\-er\\-ties of language, of the world. That its constituent parts connected together in this way give a tautology characterizes the logic of its constituent parts. In order that propositions connected together in a definite way may give a tautology they must have definite properties of structure. That they give a tautology when so connected shows therefore that they possess these properties of structure."
+  },
+  {
+   "n": "6.1201",
+   "de": "Dass z. B. die Sätze „p“ und „¬{p}“ in der Verbindung „¬{(p · ¬{p})}“ eine Tautologie ergeben, zeigt, dass sie einander widersprechen. Dass die Sätze „p ⊃ q“, „p“ und „q“ in der Form „(p ⊃ q) · (p) : ⊃ : (q)“ miteinander verbunden eine Tautologie ergeben, zeigt, dass q aus p und p ⊃ q folgt. Dass „(x) · fx : ⊃ : fa“ eine Tautologie ist, dass fa aus (x) · fx folgt. etc. etc.",
+   "en": "That e.g. the propositions \"p\" and \"¬{p}\" in the connexion \"¬{(p · ¬{p})}\" give a tautology shows that they contradict one another. That the propositions \"p ⊃ q\", \"p\" and \"q\" connected together in the form \"(p ⊃ q) · (p) : ⊃ : (q)\" give a tautology shows that q follows from p and p ⊃ q. That \"(x) · fx : ⊃ : fa\" is a tautology shows that fa follows from (x) · fx, etc. etc."
+  },
+  {
+   "n": "6.1202",
+   "de": "Es ist klar, dass man zu demselben Zweck statt der Tautologien auch die Kontradiktionen verwenden könnte.",
+   "en": "It is clear that we could have used for this purpose contradictions instead of tautologies."
+  },
+  {
+   "n": "6.1203",
+   "de": "{ Um eine Tautologie als solche zu erkennen, kann man sich, in den Fällen, in welchen in der Tautologie keine Allgemeinheitsbezeichnung vorkommt, folgender anschaulichen Methode bedienen: Ich schreibe statt „p“, „q“, „r“ etc. „WpF“, „WqF“, „WrF“ etc. Die Wahrheitskombinationen drücke ich durch Klammern aus. z. B.:} [图] und die Zuordnung der Wahr- oder Falschheit des ganzen Satzes und der Wahrheitskombinationen der Wahrheitsargumente durch Striche auf folgende Weise: [图] Dies Zeichen würde also z. B. den Satz p ⊃ q darstellen. Nun will ich z. B. den Satz ¬{(p · ¬{p})} (Gesetz des Widerspruchs) daraufhin untersuchen, ob er eine Tautologie ist. Die Form „¬{ξ}“ wird in unserer Notation [图] geschrieben; die Form „ξ · η“ so: [图] Daher lautet der Satz ¬{(p · ¬{q})} so: [图] Setzen wir hier statt „q“ „p“ ein und untersuchen die Verbindung der äussersten W und F mit den innersten, so ergibt sich, dass die Wahrheit des ganzen Satzes allen Wahrheitskombinationen seines Argumentes, seine Falschheit keiner der Wahrheitskombinationen zugeordnet ist.",
+   "en": "In order to recognize a tautology as such, we can, in cases in which no sign of generality occurs in the tautology, make use of the following intuitive method: I write instead of \"p\", \"q\", \"r\", etc., \"TpF\", \"TqF\", \"TrF\", etc. The truth-combinations I express by brackets, e.g.: [图] and the co-ordination of the truth or falsity of the whole proposition with the truth-combinations of the truth-arguments by lines in the following way: [图] This sign, for example, would therefore present the proposition p ⊃ q. Now I will proceed to inquire whether such a proposition as ¬{(p · ¬{p})} (The Law of Contradiction) is a tautology. The form \"¬{ξ}\" is written in our notation [图] the form \"ξ · η\" thus:— [图] Hence the proposition ¬{(p · ¬{q})} runs thus:— [图] If here we put \"p\" instead of \"q\" and examine the combination of the outermost T and F with the innermost, it is seen that the truth of the whole proposition is co-ordinated with all the truth-combinations of its argument, its falsity with none of the truth-combinations."
+  },
+  {
+   "n": "6.121",
+   "de": "Die Sätze der Logik demonstrieren die logischen Eigenschaften der Sätze, indem sie sie zu nichtssagenden Sätzen verbinden. Diese Methode könnte man auch eine Nullmethode nennen. Im logischen Satz werden Sätze miteinander ins Gleichgewicht gebracht und der Zustand des Gleichgewichts zeigt dann an, wie diese Sätze logisch beschaffen sein müssen.",
+   "en": "The propositions of logic demonstrate the logical properties of propositions, by combining them into propositions which say nothing. This method could be called a zero-method. In a logical proposition propositions are brought into equilibrium with one another, and the state of equilibrium then shows how these propositions must be logically constructed."
+  },
+  {
+   "n": "6.122",
+   "de": "Daraus ergibt sich, dass wir auch ohne die logischen Sätze auskommen können, da wir ja in einer entsprechenden Notation die formalen Eigenschaften der Sätze durch das blosse Ansehen dieser Sätze erkennen können.",
+   "en": "Whence it follows that we can get on without logical propositions, for we can recognize in an adequate notation the formal properties of the propositions by mere inspection."
+  },
+  {
+   "n": "6.1221",
+   "de": "Ergeben z. B. zwei Sätze „p“ und „q“ in der Verbindung „p ⊃ q“ eine Tautologie, so ist klar, dass q aus p folgt. Dass z. B. „q“ aus „p ⊃ q · p“ folgt, ersehen wir aus diesen beiden Sätzen selbst, aber wir können es auch so zeigen, indem wir sie zu „p ⊃ q · p : ⊃ : q“ verbinden und nun zeigen, dass dies eine Tautologie ist.",
+   "en": "If for example two propositions \"p\" and \"q\" give a tautology in the connexion \"p ⊃ q\", then it is clear that q follows from p. e.g. that \"q\" follows from \"p ⊃ q · p\" we see from these two propositions themselves, but we can also show it by combining them to \"p ⊃ q · p : ⊃ : q\" and then showing that this is a tautology."
+  },
+  {
+   "n": "6.1222",
+   "de": "Dies wirft ein Licht auf die Frage, warum die logischen Sätze nicht durch die Erfahrung bestätigt werden können, ebenso wenig, wie sie durch die Erfahrung widerlegt werden können. Nicht nur muss ein Satz der Logik durch keine mögliche Erfahrung widerlegt werden können, sondern er darf auch nicht durch eine solche bestätigt werden können.",
+   "en": "This throws light on the question why logical propositions can no more be empirically established than they can be empirically refuted. Not only must a proposition of logic be incapable of being contradicted by any possible experience, but it must also be incapable of being established by any such."
+  },
+  {
+   "n": "6.1223",
+   "de": "Nun wird klar, warum man oft fühlte, als wären die „logischen Wahrheiten“ von uns zu „fordern“: Wir können sie nämlich insofern fordern, als wir eine genügende Notation fordern können.",
+   "en": "It now becomes clear why we often feel as though \"logical truths\" must be \"postulated\" by us. We can in fact postulate them in so far as we can postulate an adequate notation."
+  },
+  {
+   "n": "6.1224",
+   "de": "Es wird jetzt auch klar, warum die Logik die Lehre von den Formen und vom Schliessen genannt wurde.",
+   "en": "It also becomes clear why logic has been called the theory of forms and of inference."
+  },
+  {
+   "n": "6.123",
+   "de": "Es ist klar: Die logischen Gesetze dürfen nicht selbst wieder logischen Gesetzen unterstehen. (Es gibt nicht, wie Russell meinte, für jede „Type“ ein eigenes Gesetz des Widerspruches, sondern Eines genügt, da es auf sich selbst nicht angewendet wird.)",
+   "en": "It is clear that the laws of logic cannot themselves obey further logical laws. (There is not, as Russell supposed, for every \"type\" a special law of contradiction; but one is sufficient, since it is not applied to itself.)"
+  },
+  {
+   "n": "6.1231",
+   "de": "Das Anzeichen des logischen Satzes ist nicht die Allgemeingültigkeit. Allgemein sein, heisst ja nur: Zufälligerweise für alle Dinge gelten. Ein unverallgemeinerter Satz kann ja ebensowohl tautologisch sein, als ein verallgemeinerter.",
+   "en": "The mark of logical propositions is not their general validity. To be general is only to be accidentally valid for all things. An ungeneralized proposition can be tautologous just as well as a generalized one."
+  },
+  {
+   "n": "6.1232",
+   "de": "Die logische Allgemeingültigkeit könnte man wesentlich nennen, im Gegensatz zu jener zufälligen, etwa des Satzes „alle Menschen sind sterblich“. Sätze, wie Russells „Axiom of reducibility“ sind nicht logische Sätze, und dies erklärt unser Gefühl: Dass sie, wenn wahr, so doch nur durch einen günstigen Zufall wahr sein könnten.",
+   "en": "Logical general validity, we could call essential as opposed to accidental general validity, e.g. of the proposition \"all men are mortal\". Propositions like Russell’s \"axiom of reducibility\" are not logical propositions, and this explains our feeling that, if true, they can only be true by a happy chance."
+  },
+  {
+   "n": "6.1233",
+   "de": "Es lässt sich eine Welt denken, in der das Axiom of reducibility nicht gilt. Es ist aber klar, dass die Logik nichts mit der Frage zu schaffen hat, ob unsere Welt wirklich so ist oder nicht.",
+   "en": "We can imagine a world in which the axiom of reducibility is not valid. But it is clear that logic has nothing to do with the question whether our world is really of this kind or not."
+  },
+  {
+   "n": "6.124",
+   "de": "Die logischen Sätze beschreiben das Gerüst der Welt, oder vielmehr, sie stellen es dar. Sie „handeln“ von nichts. Sie setzen voraus, dass Namen Bedeutung, und Elementarsätze Sinn haben: Und dies ist ihre Verbindung mit der Welt. Es ist klar, dass es etwas über die Welt anzeigen muss, dass gewisse Verbindungen von Symbolen—welche wesentlich einen bestimmten Charakter haben—Tautologien sind. Hierin liegt das Entscheidende. Wir sagten, manches an den Symbolen, die wir gebrauchen, wäre willkürlich, manches nicht. In der Logik drückt nur dieses aus: Dass heisst aber, in der Logik drücken nicht wir mit Hilfe der Zeichen aus, was wir wollen, sondern in der Logik sagt die Natur der naturnotwendigen Zeichen selbst aus: Wenn wir die logische Syntax irgend einer Zeichensprache kennen, dann sind bereits alle Sätze der Logik gegeben.",
+   "en": "The logical propositions describe the scaffolding of the world, or rather they present it. They \"treat\" of nothing. They presuppose that names have meaning, and that elementary propositions have sense. And this is their connexion with the world. It is clear that it must show something about the world that certain combinations of symbols—which essentially have a definite character—are tautologies. Herein lies the decisive point. We said that in the symbols which we use much is arbitrary, much not. In logic only this expresses: but this means that in logic it is not we who express, by means of signs, what we want, but in logic the nature of the essentially necessary signs itself asserts. That is to say, if we know the logical syntax of any sign language, then all the propositions of logic are already given."
+  },
+  {
+   "n": "6.125",
+   "de": "Es ist möglich, und zwar auch nach der alten Auffassung der Logik, von vornherein eine Beschreibung aller „wahren“ logischen Sätze zu geben.",
+   "en": "It is possible, even in the old logic, to give at the outset a description of all \"true\" logical propositions."
+  },
+  {
+   "n": "6.1251",
+   "de": "Darum kann es in der Logik auch nie Überraschungen geben.",
+   "en": "Hence there can never be surprises in logic."
+  },
+  {
+   "n": "6.126",
+   "de": "Ob ein Satz der Logik angehört, kann man berechnen, indem man die logischen Eigenschaften des Symbols berechnet. Und dies tun wir, wenn wir einen logischen Satz „beweisen“. Denn, ohne uns um einen Sinn und eine Bedeutung zu kümmern, bilden wir den logischen Satz aus anderen nach blossen Zeichenregeln. Der Beweis der logischen Sätze besteht darin, dass wir sie aus anderen logischen Sätzen durch successive Anwendung gewisser Operationen entstehen lassen, die aus den ersten immer wieder Tautologien erzeugen. (Und zwar folgen aus einer Tautologie nur Tautologien.) Natürlich ist diese Art zu zeigen, dass ihre Sätze Tautologien sind, der Logik durchaus unwesentlich. Schon darum, weil die Sätze, von welchen der Beweis ausgeht, ja ohne Beweis zeigen müssen, dass sie Tautologien sind.",
+   "en": "Whether a proposition belongs to logic can be determined by determining the logical properties of the symbol. And this we do when we prove a logical proposition. For without troubling ourselves about a sense and a meaning, we form the logical propositions out of others by mere symbolic rules. We prove a logical proposition by creating it out of other logical propositions by applying in succession certain operations, which again generate tautologies out of the first. (And from a tautology only tautologies follow.) Naturally this way of showing that its propositions are tautologies is quite unessential to logic. Because the propositions, from which the proof starts, must show without proof that they are tautologies."
+  },
+  {
+   "n": "6.1261",
+   "de": "In der Logik sind Prozess und Resultat äquivalent. (Darum keine Überraschung.)",
+   "en": "In logic process and result are equivalent. (Therefore no surprises.)"
+  },
+  {
+   "n": "6.1262",
+   "de": "Der Beweis in der Logik ist nur ein mechanisches Hilfsmittel zum leichteren Erkennen der Tautologie, wo sie kompliziert ist.",
+   "en": "Proof in logic is only a mechanical expedient to facilitate the recognition of tautology, where it is complicated."
+  },
+  {
+   "n": "6.1263",
+   "de": "Es wäre ja auch zu merkwürdig, wenn man einen sinnvollen Satz logisch aus anderen beweisen könnte, und einen logischen Satz auch. Es ist von vornherein klar, dass der logische Beweis eines sinnvollen Satzes und der Beweis in der Logik zwei ganz verschiedene Dinge sein müssen.",
+   "en": "It would be too remarkable, if one could prove a significant proposition logically from another, and a logical proposition also. It is clear from the beginning that the logical proof of a significant proposition and the proof in logic must be two quite different things."
+  },
+  {
+   "n": "6.1264",
+   "de": "Der sinnvolle Satz sagt etwas aus, und sein Beweis zeigt, dass es so ist; in der Logik ist jeder Satz die Form eines Beweises. Jeder Satz der Logik ist ein in Zeichen dargestellter modus ponens. (Und den modus ponens kann man nicht durch einen Satz ausdrücken.)",
+   "en": "{ The significant proposition asserts something, and its proof shows that it is so; in logic every proposition is the form of a proof.} Every proposition of logic is a modus ponens presented in signs. (And the modus ponens can not be expressed by a proposition.)"
+  },
+  {
+   "n": "6.1265",
+   "de": "Immer kann man die Logik so auffassen, dass jeder Satz sein eigener Beweis ist.",
+   "en": "Logic can always be conceived to be such that every proposition is its own proof."
+  },
+  {
+   "n": "6.127",
+   "de": "Alle Sätze der Logik sind gleichberechtigt, es gibt unter ihnen nicht wesentlich Grundgesetze und abgeleitete Sätze. Jede Tautologie zeigt selbst, dass sie eine Tautologie ist.",
+   "en": "All propositions of logic are of equal rank; there are not some which are essentially primitive and others deduced from these. Every tautology itself shows that it is a tautology."
+  },
+  {
+   "n": "6.1271",
+   "de": "Es ist klar, dass die Anzahl der „logischen Grundgesetze“ willkürlich ist, denn man könnte die Logik ja aus Einem Grundgesetz ableiten, indem man einfach z. B. aus Freges Grundgesetzen das logische Produkt bildet. (Frege würde vielleicht sagen, dass dieses Grundgesetz nun nicht mehr unmittelbar einleuchte. Aber es ist merkwürdig, dass ein so exakter Denker wie Frege sich auf den Grad des Einleuchtens als Kriterium des logischen Satzes berufen hat.)",
+   "en": "It is clear that the number of \"primitive propositions of logic\" is arbitrary, for we could deduce logic from one primitive proposition by simply forming, for example, the logical product of Frege’s primitive propositions. (Frege would perhaps say that this would no longer be immediately self-evident. But it is remarkable that so exact a thinker as Frege should have appealed to the degree of self-evidence as the criterion of a logical proposition.)"
+  },
+  {
+   "n": "6.13",
+   "de": "Die Logik ist keine Lehre, sondern ein Spiegelbild der Welt. Die Logik ist transcendental.",
+   "en": "Logic is not a theory but a reflexion of the world. Logic is transcendental."
+  },
+  {
+   "n": "6.2",
+   "de": "Die Mathematik ist eine logische Methode. Die Sätze der Mathematik sind Gleichungen also Scheinsätze.",
+   "en": "Mathematics is a logical method. The propositions of mathematics are equations, and therefore pseudo-prop\\-o\\-si\\-tions."
+  },
+  {
+   "n": "6.21",
+   "de": "Der Satz der Mathematik drückt keinen Gedanken aus.",
+   "en": "Mathematical propositions express no thoughts."
+  },
+  {
+   "n": "6.211",
+   "de": "Im Leben ist es ja nie der mathematische Satz, den wir brauchen, sondern wir benützen den mathematischen Satz nur, um aus Sätzen, welche nicht der Mathematik angehören, auf andere zu schliessen, welche gleichfalls nicht der Mathematik angehören. (In der Philosophie führt die Frage „wozu gebrauchen wir eigentlich jenes Wort, jenen Satz“ immer wieder zu wertvollen Einsichten.)",
+   "en": "In life it is never a mathematical proposition which we need, but we use mathematical propositions only in order to infer from propositions which do not belong to mathematics to others which equally do not belong to mathematics. (In philosophy the question \"Why do we really use that word, that proposition?\" constantly leads to valuable results.)"
+  },
+  {
+   "n": "6.22",
+   "de": "Die Logik der Welt, die die Sätze der Logik in den Tautologien zeigen, zeigt die Mathematik in den Gleichungen.",
+   "en": "The logic of the world which the propositions of logic show in tautologies, mathematics shows in equations."
+  },
+  {
+   "n": "6.23",
+   "de": "Wenn zwei Ausdrücke durch das Gleichheitszeichen verbunden werden, so heisst das, sie sind durch einander ersetzbar. Ob dies aber der Fall ist muss sich an den beiden Ausdrücken selbst zeigen. Es charakterisiert die logische Form zweier Ausdrücke, dass sie durch einander ersetzbar sind.",
+   "en": "{ If two expressions are connected by the sign of equality, this means that they can be substituted for one another. But whether this is the case must show itself in the two expressions themselves.} It characterizes the logical form of two expressions, that they can be substituted for one another."
+  },
+  {
+   "n": "6.231",
+   "de": "Es ist eine Eigenschaft der Bejahung, dass man sie als doppelte Verneinung auffassen kann. Es ist eine Eigenschaft von „1 + 1 + 1 + 1“, dass man es als „(1 + 1) + (1 + 1)“ auffassen kann.",
+   "en": "It is a property of affirmation that it can be conceived as double denial. It is a property of \"1 + 1 + 1 + 1\" that it can be conceived as \"(1 + 1) + (1 + 1)\"."
+  },
+  {
+   "n": "6.232",
+   "de": "Frege sagt, die beiden Ausdrücke haben dieselbe Bedeutung, aber verschiedenen Sinn. Das Wesentliche an der Gleichung ist aber, dass sie nicht notwendig ist, um zu zeigen, dass die beiden Ausdrücke, die das Gleichheitszeichen verbindet, dieselbe Bedeutung haben, da sich dies aus den beiden Ausdrücken selbst ersehen lässt.",
+   "en": "Frege says that these expressions have the same meaning but different senses. But what is essential about equation is that it is not necessary in order to show that both expressions, which are connected by the sign of equality, have the same meaning: for this can be perceived from the two expressions themselves."
+  },
+  {
+   "n": "6.2321",
+   "de": "Und, dass die Sätze der Mathematik bewiesen werden können, heisst ja nichts anderes, als dass ihre Richtigkeit einzusehen ist, ohne dass das, was sie ausdrücken, selbst mit den Tatsachen auf seine Richtigkeit hin verglichen werden muss.",
+   "en": "And, that the propositions of mathematics can be proved means nothing else than that their correctness can be seen without our having to compare what they express with the facts as regards correctness."
+  },
+  {
+   "n": "6.2322",
+   "de": "Die Identität der Bedeutung zweier Ausdrücke lässt sich nicht behaupten. Denn um etwas von ihrer Bedeutung behaupten zu können, muss ich ihre Bedeutung kennen: und indem ich ihre Bedeutung kenne, weiss ich, ob sie dasselbe oder verschiedenes bedeuten.",
+   "en": "The identity of the meaning of two expressions cannot be asserted. For in order to be able to assert anything about their meaning, I must know their meaning, and if I know their meaning, I know whether they mean the same or something different."
+  },
+  {
+   "n": "6.2323",
+   "de": "Die Gleichung kennzeichnet nur den Standpunkt, von welchem ich die beiden Ausdrücke betrachte, nämlich vom Standpunkte ihrer Bedeutungsgleichheit.",
+   "en": "The equation characterizes only the standpoint from which I consider the two expressions, that is to say the standpoint of their equality of meaning."
+  },
+  {
+   "n": "6.233",
+   "de": "Die Frage, ob man zur Lösung der mathematischen Probleme die Anschauung brauche, muss dahin beantwortet werden, dass eben die Sprache hier die nötige Anschauung liefert.",
+   "en": "To the question whether we need intuition for the solution of mathematical problems it must be answered that language itself here supplies the necessary intuition."
+  },
+  {
+   "n": "6.2331",
+   "de": "Der Vorgang des Rechnens vermittelt eben diese Anschauung. Die Rechnung ist kein Experiment.",
+   "en": "The process of calculation brings about just this intuition. Calculation is not an experiment."
+  },
+  {
+   "n": "6.234",
+   "de": "Die Mathematik ist eine Methode der Logik.",
+   "en": "Mathematics is a method of logic."
+  },
+  {
+   "n": "6.2341",
+   "de": "Das Wesentliche der mathematischen Methode ist es, mit Gleichungen zu arbeiten. Auf dieser Methode beruht es nämlich, dass jeder Satz der Mathematik sich von selbst verstehen muss.",
+   "en": "The essential of mathematical method is working with equations. On this method depends the fact that every proposition of mathematics must be self-intelligible."
+  },
+  {
+   "n": "6.24",
+   "de": "Die Methode der Mathematik, zu ihren Gleichungen zu kommen, ist die Substitutionsmethode. { Denn die Gleichungen drücken die Ersetzbarkeit zweier Ausdrücke aus und wir schreiten von einer Anzahl von Gleichungen zu neuen Gleichungen vor, indem wir, den Gleichungen entsprechend, Ausdrücke durch andere ersetzen.}",
+   "en": "The method by which mathematics arrives at its equations is the method of substitution. For equations express the substitutability of two expressions, and we proceed from a number of equations to new equations, replacing expressions by others in accordance with the equations."
+  },
+  {
+   "n": "6.241",
+   "de": "So lautet der Beweis des Satzes 2 \\times 2 = 4: (Ω^{ν})^{μ}’x = Ω^{ν \\times μ}’x Def. Ω^{2 \\times 2}’x = (Ω^{2})^{2}’x = (Ω^{2})^{1 + 1}’x = Ω^{2}’Ω^{2}’x = Ω^{1 + 1}’Ω^{1 + 1}’x = (Ω’Ω)’(Ω’Ω)’x = Ω’Ω’Ω’Ω’x = Ω^{1 + 1 + 1 + 1}’x = Ω^{4}’x.",
+   "en": "Thus the proof of the proposition 2 \\times 2 = 4 runs: (Ω^{ν})^{μ}’x = Ω^{ν \\times μ}’x Def. Ω^{2 \\times 2}’x = (Ω^{2})^{2}’x = (Ω^{2})^{1 + 1}’x = Ω^{2}’Ω^{2}’x = Ω^{1 + 1}’Ω^{1 + 1}’x = (Ω’Ω)’(Ω’Ω)’x = Ω’Ω’Ω’Ω’x = Ω^{1 + 1 + 1 + 1}’x = Ω^{4}’x."
+  },
+  {
+   "n": "6.3",
+   "de": "Die Erforschung der Logik bedeutet die Erforschung aller Gesetzmässigkeit. Und ausserhalb der Logik ist alles Zufall.",
+   "en": "Logical research means the investigation of \\emph{all regularity}. And outside logic all is accident."
+  },
+  {
+   "n": "6.31",
+   "de": "Das sogenannte Gesetz der Induktion kann jedenfalls kein logisches Gesetz sein, denn es ist offenbar ein sinnvoller Satz.—Und darum kann es auch kein Gesetz a priori sein.",
+   "en": "The so-called law of induction cannot in any case be a logical law, for it is obviously a significant proposition.—And therefore it cannot be a law a priori either."
+  },
+  {
+   "n": "6.32",
+   "de": "Das Kausalitätsgesetz ist kein Gesetz, sondern die Form eines Gesetzes.",
+   "en": "The law of causality is not a law but the form of a law."
+  },
+  {
+   "n": "6.321",
+   "de": "„Kausalitätsgesetz“, das ist ein Gattungsname. Und wie es in der Mechanik, sagen wir, Minimum-Gesetze gibt,—etwa der kleinsten Wir\\-kung—so gibt es in der Physik Kausalitätsgesetze, Gesetze von der Kausalitätsform.",
+   "en": "\"Law of Causality\" is a class name. And as in mechanics there are, for instance, minimum-laws, such as that of least action, so in physics there are causal laws, laws of the causality form."
+  },
+  {
+   "n": "6.3211",
+   "de": "Man hat ja auch davon eine Ahnung gehabt, dass es ein „Gesetz der kleinsten Wirkung“ geben müsse, ehe man genau wuss\\-te, wie es lautete. (Hier, wie immer, stellt sich das a priori Gewisse als etwas rein Logisches heraus.)",
+   "en": "Men had indeed an idea that there must be a \"law of least action\", before they knew exactly how it ran. (Here, as always, the a priori certain proves to be something purely logical.)"
+  },
+  {
+   "n": "6.33",
+   "de": "Wir glauben nicht a priori an ein Erhaltungsgesetz, sondern wir wissen a priori die Möglichkeit einer logischen Form.",
+   "en": "We do not believe a priori in a law of conservation, but we know a priori the possibility of a logical form."
+  },
+  {
+   "n": "6.34",
+   "de": "Alle jene Sätze, wie der Satz vom Grunde, von der Kontinuität in der Natur, vom kleinsten Aufwande in der Natur etc. etc., alle diese sind Einsichten a priori über die mögliche Formgebung der Sätze der Wissenschaft.",
+   "en": "All propositions, such as the law of causation, the law of continuity in nature, the law of least expenditure in nature, etc. etc., all these are a priori intuitions of possible forms of the propositions of science."
+  },
+  {
+   "n": "6.341",
+   "de": "Die Newtonsche Mechanik z. B. bringt die Weltbeschreibung auf eine einheitliche Form. Denken wir uns eine weisse Fläche, auf der unregelmässige schwarze Flecken wären. Wir sagen nun: Was für ein Bild immer hierdurch entsteht, immer kann ich seiner Beschreibung beliebig nahe kommen, indem ich die Fläche mit einem entsprechend feinen quadratischen Netzwerk bedecke und nun von jedem Quadrat sage, dass es weiss oder schwarz ist. Ich werde auf diese Weise die Beschreibung der Fläche auf eine einheitliche Form gebracht haben. Diese Form ist beliebig, denn ich hätte mit dem gleichen Erfolge ein Netz aus dreieckigen oder sechseckigen Maschen verwenden können. Es kann sein, dass die Beschreibung mit Hilfe eines Dreiecks-Netzes einfacher geworden wäre; das heisst, dass wir die Fläche mit einem gröberen Dreiecks-Netz genauer beschreiben könnten, als mit einem feineren quadratischen (oder umgekehrt) usw. Den verschiedenen Netzen entsprechen verschiedene Systeme der Weltbeschreibung. Die Mechanik bestimmt eine Form der Weltbeschreibung, indem sie sagt: Alle Sätze der Weltbeschreibung müssen aus einer Anzahl gegebener Sätze—den mechanischen Axiomen—auf eine gegebene Art und Weise erhalten werden. Hierdurch liefert sie die Bausteine zum Bau des wissenschaftlichen Gebäudes und sagt: Welches Gebäude immer du aufführen willst, jedes musst du irgendwie mit diesen und nur diesen Bausteinen zusammenbringen. (Wie man mit dem Zahlensystem jede beliebige Anzahl, so muss man mit dem System der Mechanik jeden beliebigen Satz der Physik hinschreiben können.)",
+   "en": "Newtonian mechanics, for example, brings the description of the universe to a unified form. Let us imagine a white surface with irregular black spots. We now say: Whatever kind of picture these make I can always get as near as I like to its description, if I cover the surface with a sufficiently fine square network and now say of every square that it is white or black. In this way I shall have brought the description of the surface to a unified form. This form is arbitrary, because I could have applied with equal success a net with a triangular or hexagonal mesh. It can happen that the description would have been simpler with the aid of a triangular mesh; that is to say we might have described the surface more accurately with a triangular, and coarser, than with the finer square mesh, or vice versa, and so on. To the different networks correspond different systems of describing the world. Mechanics determine a form of description by saying: All propositions in the description of the world must be obtained in a given way from a number of given propositions—the mechanical axioms. It thus provides the bricks for building the edifice of science, and says: Whatever building thou wouldst erect, thou shalt construct it in some manner with these bricks and these alone. (As with the system of numbers one must be able to write down any arbitrary number, so with the system of mechanics one must be able to write down any arbitrary physical proposition.)"
+  },
+  {
+   "n": "6.342",
+   "de": "Und nun sehen wir die gegenseitige Stellung von Logik und Mechanik. (Man könnte das Netz auch aus verschiedenartigen Figuren etwa aus Dreie\\discretionary{k-}{c}ken und Sechsecken bestehen lassen.) Dass sich ein Bild, wie das vorhin erwähnte, durch ein Netz von gegebener Form beschreiben lässt, sagt über das Bild nichts aus. (Denn dies gilt für jedes Bild dieser Art.) Das aber charakterisiert das Bild, dass es sich durch ein bestimmtes Netz von bestimmter Feinheit vollständig beschreiben lässt. So auch sagt es nichts über die Welt aus, dass sie sich durch die Newtonsche Mechanik beschreiben lässt; wohl aber, dass sie sich so durch jene beschreiben lässt, wie dies eben der Fall ist. Auch das sagt etwas über die Welt, dass sie sich durch die eine Mechanik einfacher beschreiben lässt, als durch die andere.",
+   "en": "And now we see the relative position of logic and mechanics. (We could construct the network out of figures of different kinds, as out of triangles and hexagons together.) That a picture like that instanced above can be described by a network of a given form asserts nothing about the picture. (For this holds of every picture of this kind.) But this does characterize the picture, the fact, namely, that it can be completely described by a definite net of definite fineness. So too the fact that it can be described by Newtonian mechanics asserts nothing about the world; but this asserts something, namely, that it can be described in that particular way in which it is described, as is indeed the case. The fact, too, that it can be described more simply by one system of mechanics than by another says something about the world."
+  },
+  {
+   "n": "6.343",
+   "de": "Die Mechanik ist ein Versuch, alle wahren Sätze, die wir zur Weltbeschreibung brauchen, nach Einem Plane zu konstruieren.",
+   "en": "Mechanics is an attempt to construct according to a single plan all true propositions which we need for the description of the world."
+  },
+  {
+   "n": "6.3431",
+   "de": "Durch den ganzen logischen Apparat hindurch sprechen die physikalischen Gesetze doch von den Gegenständen der Welt.",
+   "en": "Through the whole apparatus of logic the physical laws still speak of the objects of the world."
+  },
+  {
+   "n": "6.3432",
+   "de": "Wir dürfen nicht vergessen, dass die Weltbeschreibung durch die Mechanik immer die ganz allgemeine ist. Es ist in ihr z. B. nie von bestimmten materiellen Punkten die Rede, sondern immer nur von irgend welchen.",
+   "en": "We must not forget that the description of the world by mechanics is always quite general. There is, for example, never any mention of particular material points in it, but always only of some points or other."
+  },
+  {
+   "n": "6.35",
+   "de": "Obwohl die Flecke in unserem Bild geometrische Figuren sind, so kann doch selbstverständlich die Geometrie gar nichts über ihre tatsächliche Form und Lage sagen. Das Netz aber ist rein geometrisch, alle seine Eigenschaften können a priori angegeben werden. Gesetze, wie der Satz vom Grunde, etc., handeln vom Netz, nicht von dem, was das Netz beschreibt.",
+   "en": "Although the spots in our picture are geometrical figures, geometry can obviously say nothing about their actual form and position. But the network is purely geometrical, and all its properties can be given a priori. Laws, like the law of causation, etc., treat of the network and not of what the network described."
+  },
+  {
+   "n": "6.36",
+   "de": "Wenn es ein Kausalitätsgesetz gäbe, so könnte es lauten: „Es gibt Naturgesetze“. Aber freilich kann man das nicht sagen: es zeigt sich.",
+   "en": "If there were a law of causality, it might run: \"There are natural laws\". But that can clearly not be said: it shows itself."
+  },
+  {
+   "n": "6.361",
+   "de": "In der Ausdrucksweise Hertz’s könnte man sagen: Nur gesetzmässige Zusammenhänge sind denkbar.",
+   "en": "In the terminology of Hertz we might say: Only uniform connexions are thinkable."
+  },
+  {
+   "n": "6.3611",
+   "de": "Wir können keinen Vorgang mit dem „Ablauf der Zeit“ ver\\-glei\\-chen—diesen gibt es nicht—, sondern nur mit einem anderen Vorgang (etwa mit dem Gang des Chronometers). Daher ist die Beschreibung des zeitlichen Verlaufs nur so möglich, dass wir uns auf einen anderen Vorgang stützen. Ganz Analoges gilt für den Raum. Wo man z. B. sagt, es könne keines von zwei Ereignissen (die sich gegenseitig aus\\-schlies\\-sen) eintreten, weil keine Ursache vorhanden sei, warum das eine eher als das andere eintreten solle, da handelt es sich in Wirklichkeit darum, dass man gar nicht eines der beiden Ereignisse beschreiben kann, wenn nicht irgend eine Asymmetrie vorhanden ist. Und wenn eine solche Asymmetrie vorhanden ist, so können wir diese als Ursache des Eintreffens des einen und Nicht-Eintreffens des anderen auffassen.",
+   "en": "We cannot compare any process with the \"passage of time\"—there is no such thing—but only with another process (say, with the movement of the chronometer). Hence the description of the temporal sequence of events is only possible if we support ourselves on another process. It is exactly analogous for space. When, for example, we say that neither of two events (which mutually exclude one another) can occur, because there is no cause why the one should occur rather than the other, it is really a matter of our being unable to describe one of the two events unless there is some sort of asymmetry. And if there is such an asymmetry, we can regard this as the cause of the occurrence of the one and of the non-occurrence of the other."
+  },
+  {
+   "n": "6.36111",
+   "de": "Das Kant’sche Problem von der rechten und linken Hand, die man nicht zur Deckung bringen kann, besteht schon in der Ebene, ja im eindimensionalen Raum, wo die beiden kongruenten Figuren a und b auch nicht zur Deckung gebracht werden können, ohne aus diesem Raum herausbewegt zu werden. Rechte und linke Hand sind tatsächlich vollkommen kongruent. Und dass man sie nicht zur Deckung bringen kann, hat damit nichts zu tun. [图] Den rechten Handschuh könnte man an die linke Hand ziehen, wenn man ihn im vierdimensionalen Raum umdrehen könnte.",
+   "en": "The Kantian problem of the right and left hand which cannot be made to cover one another already exists in the plane, and even in one-di\\-men\\-sio\\-nal space; where the two congruent figures a and b cannot be made to cover one another without moving them out of this space. The right and left hand are in fact completely congruent. And the fact that they cannot be made to cover one another has nothing to do with it. [图] A right-hand glove could be put on a left hand if it could be turned round in four-dimensional space."
+  },
+  {
+   "n": "6.362",
+   "de": "Was sich beschreiben lässt, das kann auch geschehen, und was das Kausalitätsgesetz ausschliessen soll, das lässt sich auch nicht beschreiben.",
+   "en": "What can be described can happen too, and what is excluded by the law of causality cannot be described."
+  },
+  {
+   "n": "6.363",
+   "de": "Der Vorgang der Induktion besteht darin, dass wir das einfachste Gesetz annehmen, das mit unseren Erfahrungen in Einklang zu bringen ist.",
+   "en": "The process of induction is the process of assuming the simplest law that can be made to harmonize with our experience."
+  },
+  {
+   "n": "6.3631",
+   "de": "Dieser Vorgang hat aber keine logische, sondern nur eine psychologische Begründung. Es ist klar, dass kein Grund vorhanden ist, zu glauben, es werde nun auch wirklich der einfachste Fall eintreten.",
+   "en": "This process, however, has no logical foundation but only a psychological one. It is clear that there are no grounds for believing that the simplest course of events will really happen."
+  },
+  {
+   "n": "6.36311",
+   "de": "Dass die Sonne morgen aufgehen wird, ist eine Hypothese; und das heisst: wir wissen nicht, ob sie aufgehen wird.",
+   "en": "That the sun will rise to-morrow, is an hypothesis; and that means that we do not know whether it will rise."
+  },
+  {
+   "n": "6.37",
+   "de": "Einen Zwang, nach dem Eines geschehen müsste, weil etwas anderes geschehen ist, gibt es nicht. Es gibt nur eine logische Notwendigkeit.",
+   "en": "A necessity for one thing to happen because another has happened does not exist. There is only logical necessity."
+  },
+  {
+   "n": "6.371",
+   "de": "Der ganzen modernen Weltanschauung liegt die Täuschung zugrunde, dass die sogenannten Naturgesetze die Erklärungen der Naturerscheinungen seien.",
+   "en": "At the basis of the whole modern view of the world lies the illusion that the so-called laws of nature are the explanations of natural phenomena."
+  },
+  {
+   "n": "6.372",
+   "de": "So bleiben sie bei den Naturgesetzen als bei etwas Unantastbarem stehen, wie die älteren bei Gott und dem Schicksal. Und sie haben ja beide Recht, und Unrecht. Die Alten sind allerdings insofern klarer, als sie einen klaren Abschluss anerkennen, während es bei dem neuen System scheinen soll, als sei alles erklärt.",
+   "en": "So people stop short at natural laws as at something unassailable, as did the ancients at God and Fate. And they both are right and wrong. But the ancients were clearer, in so far as they recognized one clear conclusion, whereas in the modern system it should appear as though everything were explained."
+  },
+  {
+   "n": "6.373",
+   "de": "Die Welt ist unabhängig von meinem Willen.",
+   "en": "The world is independent of my will."
+  },
+  {
+   "n": "6.374",
+   "de": "Auch wenn alles, was wir wünschen, geschähe, so wäre dies doch nur, sozusagen, eine Gnade des Schicksals, denn es ist kein logischer Zusammenhang zwischen Willen und Welt, der dies verbürgte, und den angenommenen physikalischen Zusammenhang könnten wir doch nicht selbst wieder wollen.",
+   "en": "Even if everything we wished were to happen, this would only be, so to speak, a favour of fate, for there is no logical connexion between will and world, which would guarantee this, and the assumed physical connexion itself we could not again will."
+  },
+  {
+   "n": "6.375",
+   "de": "Wie es nur eine logische Notwendigkeit gibt, so gibt es auch nur eine logische Unmöglichkeit.",
+   "en": "As there is only a logical necessity, so there is only a logical impossibility."
+  },
+  {
+   "n": "6.3751",
+   "de": "Dass z. B. zwei Farben zugleich an einem Ort des Gesichtsfeldes sind, ist unmöglich und zwar logisch unmöglich, denn es ist durch die logische Struktur der Farbe ausgeschlossen. Denken wir daran, wie sich dieser Widerspruch in der Physik darstellt: Ungefähr so, dass ein Teilchen nicht zu gleicher Zeit zwei Geschwindigkeiten haben kann; das heisst, dass es nicht zu gleicher Zeit an zwei Orten sein kann; das heisst, dass Teilchen an verschiedenen Orten zu Einer Zeit nicht identisch sein können. (Es ist klar, dass das logische Produkt zweier Elementarsätze weder eine Tautologie noch eine Kontradiktion sein kann. Die Aussage, dass ein Punkt des Gesichtsfeldes zu gleicher Zeit zwei verschiedene Farben hat, ist eine Kontradiktion.)",
+   "en": "For two colours, e.g. to be at one place in the visual field, is impossible, logically impossible, for it is excluded by the logical structure of colour. Let us consider how this contradiction presents itself in physics. Somewhat as follows: That a particle cannot at the same time have two velocities, i.e. that at the same time it cannot be in two places, i.e. that particles in different places at the same time cannot be identical. (It is clear that the logical product of two elementary propositions can neither be a tautology nor a contradiction. The assertion that a point in the visual field has two different colours at the same time, is a contradiction.)"
+  },
+  {
+   "n": "6.4",
+   "de": "Alle Sätze sind gleichwertig.",
+   "en": "All propositions are of equal value."
+  },
+  {
+   "n": "6.41",
+   "de": "Der Sinn der Welt muss ausserhalb ihrer liegen. In der Welt ist alles wie es ist und geschieht alles wie es geschieht; es gibt in ihr keinen Wert—und wenn es ihn gäbe, so hätte er keinen Wert. Wenn es einen Wert gibt, der Wert hat, so muss er ausserhalb alles Geschehens und So-Seins liegen. Denn alles Geschehen und So-Sein ist zufällig. Was es nicht-zufällig macht, kann nicht in der Welt liegen, denn sonst wäre dies wieder zufällig. Es muss ausserhalb der Welt liegen.",
+   "en": "The sense of the world must lie outside the world. In the world everything is as it is and happens as it does happen. In it there is no value—and if there were, it would be of no value. If there is a value which is of value, it must lie outside all happening and being-so. For all happening and being-so is accidental. What makes it non-accidental cannot lie in the world, for otherwise this would again be accidental. It must lie outside the world."
+  },
+  {
+   "n": "6.42",
+   "de": "Darum kann es auch keine Sätze der Ethik geben. Sätze können nichts Höheres ausdrücken.",
+   "en": "Hence also there can be no ethical propositions. Propositions cannot express anything higher."
+  },
+  {
+   "n": "6.421",
+   "de": "Es ist klar, dass sich die Ethik nicht aussprechen lässt. Die Ethik ist transcendental. (Ethik und Aesthetik sind Eins.)",
+   "en": "It is clear that ethics cannot be expressed. Ethics are transcendental. (Ethics and æsthetics are one.)"
+  },
+  {
+   "n": "6.422",
+   "de": "Der erste Gedanke bei der Aufstellung eines ethischen Gesetzes von der Form „du sollst ....“ ist: Und was dann, wenn ich es nicht tue? Es ist aber klar, dass die Ethik nichts mit Strafe und Lohn im gewöhnlichen Sinne zu tun hat. Also muss diese Frage nach den Folgen einer Handlung belanglos sein.—Zum Mindesten dürfen diese Folgen nicht Ereignisse sein. Denn etwas muss doch an jener Fragestellung richtig sein. Es muss zwar eine Art von ethischem Lohn und ethischer Strafe geben, aber diese müssen in der Handlung selbst liegen. (Und das ist auch klar, dass der Lohn etwas Angenehmes, die Strafe etwas Unangenehmes sein muss.)",
+   "en": "The first thought in setting up an ethical law of the form \"thou shalt \\ldots\" is: And what if I do not do it. But it is clear that ethics has nothing to do with punishment and reward in the ordinary sense. This question as to the consequences of an action must therefore be irrelevant. At least these consequences will not be events. For there must be something right in that formulation of the question. There must be some sort of ethical reward and ethical punishment, but this must lie in the action itself. (And this is clear also that the reward must be something acceptable, and the punishment something unacceptable.)"
+  },
+  {
+   "n": "6.423",
+   "de": "Vom Willen als dem Träger des Ethischen kann nicht gesprochen werden. Und der Wille als Phänomen interessiert nur die Psychologie.",
+   "en": "Of the will as the bearer of the ethical we cannot speak. And the will as a phenomenon is only of interest to psychology."
+  },
+  {
+   "n": "6.43",
+   "de": "Wenn das gute oder böse Wollen die Welt ändert, so kann es nur die Grenzen der Welt ändern, nicht die Tatsachen; nicht das, was durch die Sprache ausgedrückt werden kann. Kurz, die Welt muss dann dadurch überhaupt eine andere werden. Sie muss sozusagen als Ganzes abnehmen oder zunehmen. Die Welt des Glücklichen ist eine andere als die des Unglücklichen.",
+   "en": "If good or bad willing changes the world, it can only change the limits of the world, not the facts; not the things that can be expressed in language. In brief, the world must thereby become quite another. It must so to speak wax or wane as a whole. The world of the happy is quite another than that of the unhappy."
+  },
+  {
+   "n": "6.431",
+   "de": "Wie auch beim Tod die Welt sich nicht ändert, sondern aufhört.",
+   "en": "As in death, too, the world does not change, but ceases."
+  },
+  {
+   "n": "6.4311",
+   "de": "Der Tod ist kein Ereignis des Lebens. Den Tod erlebt man nicht. Wenn man unter Ewigkeit nicht unendliche Zeitdauer, sondern Unzeitlichkeit versteht, dann lebt der ewig, der in der Gegenwart lebt. Unser Leben ist ebenso endlos, wie unser Gesichtsfeld grenzenlos ist.",
+   "en": "Death is not an event of life. Death is not lived through. If by eternity is understood not endless temporal duration but timelessness, then he lives eternally who lives in the present. Our life is endless in the way that our visual field is without limit."
+  },
+  {
+   "n": "6.4312",
+   "de": "Die zeitliche Unsterblichkeit der Seele des Menschen, das heisst also ihr ewiges Fortleben auch nach dem Tode, ist nicht nur auf keine Weise verbürgt, sondern vor allem leistet diese Annahme gar nicht das, was man immer mit ihr erreichen wollte. Wird denn dadurch ein Rätsel gelöst, dass ich ewig fortlebe? Ist denn dieses ewige Leben dann nicht ebenso rätselhaft wie das gegenwärtige? Die Lösung des Rätsels des Lebens in Raum und Zeit liegt ausserhalb von Raum und Zeit. (Nicht Probleme der Naturwissenschaft sind ja zu lösen.)",
+   "en": "The temporal immortality of the soul of man, that is to say, its eternal survival also after death, is not only in no way guaranteed, but this assumption in the first place will not do for us what we always tried to make it do. Is a riddle solved by the fact that I survive for ever? Is this eternal life not as enigmatic as our present one? The solution of the riddle of life in space and time lies outside space and time. { (It is not problems of natural science which have to be solved.)}"
+  },
+  {
+   "n": "6.432",
+   "de": "Wie die Welt ist, ist für das Höhere vollkommen gleichgültig. Gott offenbart sich nicht in der Welt.",
+   "en": "How the world is, is completely indifferent for what is higher. God does not reveal himself in the world."
+  },
+  {
+   "n": "6.4321",
+   "de": "Die Tatsachen gehören alle nur zur Aufgabe, nicht zur Lösung.",
+   "en": "The facts all belong only to the task and not to its performance."
+  },
+  {
+   "n": "6.44",
+   "de": "Nicht wie die Welt ist, ist das Mystische, sondern dass sie ist.",
+   "en": "Not how the world is, is the mystical, but that it is."
+  },
+  {
+   "n": "6.45",
+   "de": "Die Anschauung der Welt sub specie aeterni ist ihre Anschauung als—be\\-grenz\\-tes—Gan\\-zes. Das Gefühl der Welt als begrenztes Ganzes ist das mystische.",
+   "en": "The contemplation of the world sub specie aeterni is its contemplation as a limited whole. The feeling of the world as a limited whole is the mystical feeling."
+  },
+  {
+   "n": "6.5",
+   "de": "Zu einer Antwort, die man nicht aussprechen kann, kann man auch die Frage nicht aussprechen. Das Rätsel gibt es nicht. Wenn sich eine Frage überhaupt stellen lässt, so kann sie auch beantwortet werden.",
+   "en": "For an answer which cannot be expressed the question too cannot be expressed. The riddle does not exist. If a question can be put at all, then it can also be answered."
+  },
+  {
+   "n": "6.51",
+   "de": "Skeptizismus ist nicht unwiderleglich, sondern offenbar unsinnig, wenn er bezweifeln will, wo nicht gefragt werden kann. Denn Zweifel kann nur bestehen, wo eine Frage besteht; eine Frage nur, wo eine Antwort besteht, und diese nur, wo etwas gesagt werden kann.",
+   "en": "Scepticism is not irrefutable, but palpably senseless, if it would doubt where a question cannot be asked. For doubt can only exist where there is a question; a question only where there is an answer, and this only where something can be said."
+  },
+  {
+   "n": "6.52",
+   "de": "Wir fühlen, dass selbst, wenn alle möglichen wissenschaftlichen Fragen beantwortet sind, unsere Lebensprobleme noch gar nicht berührt sind. Freilich bleibt dann eben keine Frage mehr; und eben dies ist die Antwort.",
+   "en": "We feel that even if all possible scientific questions be answered, the problems of life have still not been touched at all. Of course there is then no question left, and just this is the answer."
+  },
+  {
+   "n": "6.521",
+   "de": "Die Lösung des Problems des Lebens merkt man am Verschwinden dieses Problems. (Ist nicht dies der Grund, warum Menschen, denen der Sinn des Lebens nach langen Zweifeln klar wurde, warum diese dann nicht sagen konnten, worin dieser Sinn bestand.)",
+   "en": "The solution of the problem of life is seen in the vanishing of this problem. (Is not this the reason why men to whom after long doubting the sense of life became clear, could not then say wherein this sense consisted?)"
+  },
+  {
+   "n": "6.522",
+   "de": "Es gibt allerdings Unaussprechliches. Dies zeigt sich, es ist das Mystische.",
+   "en": "There is indeed the inexpressible. This shows itself; it is the mystical."
+  },
+  {
+   "n": "6.53",
+   "de": "{ Die richtige Methode der Philosophie wäre eigentlich die: Nichts zu sagen, als was sich sagen lässt, also Sätze der Na\\-tur\\-wis\\-sen\\-schaft—also etwas, was mit Philosophie nichts zu tun hat—, und dann immer, wenn ein anderer etwas Metaphysisches sagen wollte, ihm nachzuweisen, dass er gewissen Zeichen in seinen Sätzen keine Bedeutung gegeben hat. Diese Methode wäre für den anderen un\\-be\\-frie\\-di\\-gend—er hätte nicht das Gefühl, dass wir ihn Philosophie lehrten—aber sie wäre die einzig streng richtige.}",
+   "en": "The right method of philosophy would be this. To say nothing except what can be said, i.e. the propositions of natural science, i.e. something that has nothing to do with philosophy: and then always, when someone else wished to say something metaphysical, to demonstrate to him that he had given no meaning to certain signs in his propositions. This method would be unsatisfying to the other—he would not have the feeling that we were teaching him philosophy—but it would be the only strictly correct method."
+  },
+  {
+   "n": "6.54",
+   "de": "Meine Sätze erläutern dadurch, dass sie der, welcher mich versteht, am Ende als unsinnig erkennt, wenn er durch sie—auf ihnen—über sie hinausgestiegen ist. (Er muss sozusagen die Leiter wegwerfen, nachdem er auf ihr hinaufgestiegen ist.) Er muss diese Sätze überwinden, dann sieht er die Welt richtig.",
+   "en": "My propositions are elucidatory in this way: he who understands me finally recognizes them as senseless, when he has climbed out through them, on them, over them. (He must so to speak throw away the ladder, after he has climbed up on it.) He must surmount these propositions; then he sees the world rightly."
+  },
+  {
+   "n": "7",
+   "de": "Wovon man nicht sprechen kann, darüber muss man schweigen.",
+   "en": "Whereof one cannot speak, thereof one must be silent."
+  }
+ ]
+}

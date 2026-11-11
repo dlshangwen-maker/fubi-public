@@ -1,0 +1,18 @@
+# 每次推送、每个合并请求都自动跑全部测试。红了就不能发布。
+# 状态：未在 GitHub 上跑过，第一次推送后看 Actions 页，如果报错，把日志发给作者。
+name: test
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 20   # 11-04 启动检查曾卡死 6 小时才被平台取消；正常一次约 4 分钟
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - run: pip install pypdf opencc-python-reimplemented charset-normalizer pillow
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends tesseract-ocr tesseract-ocr-eng poppler-utils
+      - run: npm i --no-save playwright && npx playwright install --with-deps chromium
+      - run: bash scripts/test_all.sh

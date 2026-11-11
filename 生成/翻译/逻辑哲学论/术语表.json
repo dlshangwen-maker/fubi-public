@@ -1,0 +1,313 @@
+{
+ "_说明": "《逻辑哲学论》可读版统一译名（2026-10-21 按 可读版要求.md 更新；上一版学界通行译名见 术语表_v1学界译名备份.json）。原则：向普通读者好懂靠，全书一致。",
+ "术语": [
+  {
+   "de": "Welt",
+   "en": "world",
+   "zh": "世界"
+  },
+  {
+   "de": "Tatsache",
+   "en": "fact",
+   "zh": "事实"
+  },
+  {
+   "de": "Sachverhalt",
+   "en": "atomic fact / state of affairs",
+   "zh": "事态",
+   "说明": "奥格登英译作 atomic fact，德文为准译“事态”"
+  },
+  {
+   "de": "Sachlage",
+   "en": "state of affairs / situation",
+   "zh": "情况"
+  },
+  {
+   "de": "Gegenstand / Ding / Sache",
+   "en": "object / thing",
+   "zh": "对象 / 事物 / 物",
+   "说明": "Gegenstand 译“对象”，Ding 译“事物”，Sache 译“物”"
+  },
+  {
+   "de": "der Fall sein",
+   "en": "to be the case",
+   "zh": "发生的事 / 实际情况",
+   "说明": "1：世界是一切发生的事。句中作谓语时可译“是实际情况”"
+  },
+  {
+   "de": "Bestehen / Nichtbestehen",
+   "en": "existence / non-existence",
+   "zh": "存在 / 不存在"
+  },
+  {
+   "de": "logischer Raum",
+   "en": "logical space",
+   "zh": "逻辑空间"
+  },
+  {
+   "de": "Substanz",
+   "en": "substance",
+   "zh": "实体"
+  },
+  {
+   "de": "Form",
+   "en": "form",
+   "zh": "形式"
+  },
+  {
+   "de": "Struktur",
+   "en": "structure",
+   "zh": "结构"
+  },
+  {
+   "de": "Bild",
+   "en": "picture",
+   "zh": "图像"
+  },
+  {
+   "de": "abbilden / Abbildung",
+   "en": "depict / represent",
+   "zh": "描绘"
+  },
+  {
+   "de": "Form der Abbildung",
+   "en": "form of representation",
+   "zh": "描绘形式",
+   "也可": [
+    "描画形式",
+    "描画的形式"
+   ]
+  },
+  {
+   "de": "logische Form",
+   "en": "logical form",
+   "zh": "逻辑形式"
+  },
+  {
+   "de": "darstellen",
+   "en": "represent",
+   "zh": "呈现"
+  },
+  {
+   "de": "Gedanke",
+   "en": "thought",
+   "zh": "思想",
+   "也可": [
+    "思想",
+    "想法",
+    "思"
+   ]
+  },
+  {
+   "de": "Satz",
+   "en": "proposition",
+   "zh": "命题"
+  },
+  {
+   "de": "Elementarsatz",
+   "en": "elementary proposition",
+   "zh": "基本命题"
+  },
+  {
+   "de": "Satzzeichen",
+   "en": "propositional sign",
+   "zh": "命题记号"
+  },
+  {
+   "de": "Zeichen",
+   "en": "sign",
+   "zh": "记号",
+   "也可": [
+    "记号",
+    "符号"
+   ]
+  },
+  {
+   "de": "Symbol",
+   "en": "symbol",
+   "zh": "符号"
+  },
+  {
+   "de": "Ausdruck",
+   "en": "expression",
+   "zh": "表达式",
+   "也可": [
+    "表达"
+   ]
+  },
+  {
+   "de": "Name",
+   "en": "name",
+   "zh": "名称"
+  },
+  {
+   "de": "Sinn",
+   "en": "sense",
+   "zh": "意义"
+  },
+  {
+   "de": "Bedeutung / bedeuten",
+   "en": "meaning / reference",
+   "zh": "所指 / 指的是",
+   "说明": "弗雷格意义上的 Bedeutung；不用“指称”“指谓”",
+   "也可": [
+    "指称",
+    "意味",
+    "意指"
+   ]
+  },
+  {
+   "de": "sinnlos",
+   "en": "senseless",
+   "zh": "没有意义",
+   "说明": "只用于重言式、矛盾式等；不用“缺乏意义”"
+  },
+  {
+   "de": "unsinnig / Unsinn",
+   "en": "nonsensical / nonsense",
+   "zh": "胡说的 / 胡说",
+   "说明": "和 sinnlos 严格区分；不用“无意义”"
+  },
+  {
+   "de": "sagen / zeigen",
+   "en": "say / show",
+   "zh": "说 / 显示",
+   "也可": [
+    "说",
+    "显示",
+    "表明"
+   ],
+   "说明": "语境需要时可作“说出”"
+  },
+  {
+   "de": "Wahrheitsfunktion",
+   "en": "truth-function",
+   "zh": "真值函数"
+  },
+  {
+   "de": "Wahrheitsmöglichkeit",
+   "en": "truth-possibility",
+   "zh": "真值可能性"
+  },
+  {
+   "de": "Wahrheitsgrund",
+   "en": "truth-ground",
+   "zh": "真值根据"
+  },
+  {
+   "de": "Wahrheitsbedingung",
+   "en": "truth-condition",
+   "zh": "真值条件"
+  },
+  {
+   "de": "Wahrheitsargument",
+   "en": "truth-argument",
+   "zh": "真值自变量"
+  },
+  {
+   "de": "Tautologie",
+   "en": "tautology",
+   "zh": "重言式"
+  },
+  {
+   "de": "Kontradiktion",
+   "en": "contradiction",
+   "zh": "矛盾式"
+  },
+  {
+   "de": "Funktion",
+   "en": "function",
+   "zh": "函数"
+  },
+  {
+   "de": "Argument",
+   "en": "argument",
+   "zh": "自变量"
+  },
+  {
+   "de": "Variable",
+   "en": "variable",
+   "zh": "变量"
+  },
+  {
+   "de": "Operation",
+   "en": "operation",
+   "zh": "运算"
+  },
+  {
+   "de": "Urbild",
+   "en": "prototype",
+   "zh": "原型"
+  },
+  {
+   "de": "Koordinate",
+   "en": "co-ordinate",
+   "zh": "坐标"
+  },
+  {
+   "de": "Allgemeinheit",
+   "en": "generality",
+   "zh": "普遍性"
+  },
+  {
+   "de": "formaler Begriff",
+   "en": "formal concept",
+   "zh": "形式概念"
+  },
+  {
+   "de": "interne / externe Eigenschaft",
+   "en": "internal / external property",
+   "zh": "内在 / 外在性质"
+  },
+  {
+   "de": "Solipsismus",
+   "en": "solipsism",
+   "zh": "唯我论"
+  },
+  {
+   "de": "Subjekt",
+   "en": "subject",
+   "zh": "主体"
+  },
+  {
+   "de": "das Mystische",
+   "en": "the mystical",
+   "zh": "神秘的东西"
+  },
+  {
+   "de": "Ethik",
+   "en": "ethics",
+   "zh": "伦理",
+   "说明": "可读版用“伦理”，学科语境可作“伦理学”"
+  },
+  {
+   "de": "Naturgesetz",
+   "en": "law of nature",
+   "zh": "自然律"
+  },
+  {
+   "de": "Kausalität",
+   "en": "causality",
+   "zh": "因果性",
+   "也可": [
+    "因果"
+   ]
+  },
+  {
+   "de": "Philosophie",
+   "en": "philosophy",
+   "zh": "哲学"
+  },
+  {
+   "de": "schweigen",
+   "en": "be silent",
+   "zh": "沉默"
+  },
+  {
+   "de": "logische Konstante",
+   "en": "logical constant",
+   "zh": "逻辑常量",
+   "说明": "不用“逻辑常项”"
+  }
+ ]
+}

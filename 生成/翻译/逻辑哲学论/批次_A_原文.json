@@ -1,0 +1,833 @@
+{
+ "批次": "A",
+ "命题": [
+  {
+   "n": "1",
+   "de": "Die Welt ist alles, was der Fall ist.",
+   "en": "The world is everything that is the case."
+  },
+  {
+   "n": "1.1",
+   "de": "Die Welt ist die Gesamtheit der Tatsachen, nicht der Dinge.",
+   "en": "The world is the totality of facts, not of things."
+  },
+  {
+   "n": "1.11",
+   "de": "Die Welt ist durch die Tatsachen bestimmt und dadurch, dass es alle Tatsachen sind.",
+   "en": "The world is determined by the facts, and by these being all the facts."
+  },
+  {
+   "n": "1.12",
+   "de": "Denn, die Gesamtheit der Tatsachen bestimmt, was der Fall ist und auch, was alles nicht der Fall ist.",
+   "en": "For the totality of facts determines both what is the case, and also all that is not the case."
+  },
+  {
+   "n": "1.13",
+   "de": "Die Tatsachen im logischen Raum sind die Welt.",
+   "en": "The facts in logical space are the world."
+  },
+  {
+   "n": "1.2",
+   "de": "Die Welt zerfällt in Tatsachen.",
+   "en": "The world divides into facts."
+  },
+  {
+   "n": "1.21",
+   "de": "Eines kann der Fall sein oder nicht der Fall sein und alles übrige gleich bleiben.",
+   "en": "Any one can either be the case or not be the case, and everything else remain the same."
+  },
+  {
+   "n": "2",
+   "de": "Was der Fall ist, die Tatsache, ist das Bestehen von Sachverhalten.",
+   "en": "What is the case, the fact, is the existence of atomic facts."
+  },
+  {
+   "n": "2.01",
+   "de": "Der Sachverhalt ist eine Verbindung von Gegenständen. (Sachen, Dingen.)",
+   "en": "An atomic fact is a combination of objects (entities, things)."
+  },
+  {
+   "n": "2.011",
+   "de": "Es ist dem Ding wesentlich, der Bestandteil eines Sachverhaltes sein zu können.",
+   "en": "It is essential to a thing that it can be a constituent part of an atomic fact."
+  },
+  {
+   "n": "2.012",
+   "de": "In der Logik ist nichts zufällig: Wenn das Ding im Sachverhalt vorkommen kann, so muss die Möglichkeit des Sachverhaltes im Ding bereits präjudiziert sein.",
+   "en": "In logic nothing is accidental: if a thing can occur in an atomic fact the possibility of that atomic fact must already be prejudged in the thing."
+  },
+  {
+   "n": "2.0121",
+   "de": "Es erschiene gleichsam als Zufall, wenn dem Ding, das allein für sich bestehen könnte, nachträglich eine Sachlage passen würde. Wenn die Dinge in Sachverhalten vorkommen können, so muss dies schon in ihnen liegen. (Etwas Logisches kann nicht nur-möglich sein. Die Logik handelt von jeder Möglichkeit und alle Möglichkeiten sind ihre Tatsachen.) Wie wir uns räumliche Gegenstände überhaupt nicht ausserhalb des Raumes, zeitliche nicht ausserhalb der Zeit denken können, so können wir uns keinen Gegenstand ausserhalb der Möglichkeit seiner Verbindung mit anderen denken. Wenn ich mir den Gegenstand im Verbande des Sachverhalts denken kann, so kann ich ihn nicht ausserhalb der Möglichkeit dieses Verbandes denken.",
+   "en": "It would, so to speak, appear as an accident, when to a thing that could exist alone on its own account, subsequently a state of affairs could be made to fit. If things can occur in atomic facts, this possibility must already lie in them. (A logical entity cannot be merely possible. Logic treats of every possibility, and all possibilities are its facts.) Just as we cannot think of spatial objects at all apart from space, or temporal objects apart from time, so we cannot think of any object apart from the possibility of its connexion with other things. If I can think of an object in the context of an atomic fact, I cannot think of it apart from the possibility of this context."
+  },
+  {
+   "n": "2.0122",
+   "de": "Das Ding ist selbständig, insofern es in allen möglichen Sachlagen vorkommen kann, aber diese Form der Selbständigkeit ist eine Form des Zusammenhangs mit dem Sachverhalt, eine Form der Unselbständigkeit. (Es ist unmöglich, dass Worte in zwei verschiedenen Weisen auftreten, allein und im Satz.)",
+   "en": "The thing is independent, in so far as it can occur in all possible circumstances, but this form of independence is a form of connexion with the atomic fact, a form of dependence. (It is impossible for words to occur in two different ways, alone and in the proposition.)"
+  },
+  {
+   "n": "2.0123",
+   "de": "Wenn ich den Gegenstand kenne, so kenne ich auch sämtliche Möglichkeiten seines Vorkommens in Sachverhalten. (Jede solche Möglichkeit muss in der Natur des Gegenstandes liegen.) Es kann nicht nachträglich eine neue Möglichkeit gefunden werden.",
+   "en": "If I know an object, then I also know all the possibilities of its occurrence in atomic facts. (Every such possibility must lie in the nature of the object.) A new possibility cannot subsequently be found."
+  },
+  {
+   "n": "2.01231",
+   "de": "Um einen Gegenstand zu kennen, muss ich zwar nicht seine externen—aber ich muss alle seine internen Eigenschaften kennen.",
+   "en": "In order to know an object, I must know not its external but all its internal qualities."
+  },
+  {
+   "n": "2.0124",
+   "de": "Sind alle Gegenstände gegeben, so sind damit auch alle möglichen Sachverhalte gegeben.",
+   "en": "If all objects are given, then thereby are all possible atomic facts also given."
+  },
+  {
+   "n": "2.013",
+   "de": "Jedes Ding ist, gleichsam, in einem Raume möglicher Sachverhalte. Diesen Raum kann ich mir leer denken, nicht aber das Ding ohne den Raum.",
+   "en": "Every thing is, as it were, in a space of possible atomic facts. I can think of this space as empty, but not of the thing without the space."
+  },
+  {
+   "n": "2.0131",
+   "de": "Der räumliche Gegenstand muss im unendlichen Raume liegen. (Der Raumpunkt ist eine Argumentstelle.) Der Fleck im Gesichtsfeld muss zwar nicht rot sein, aber eine Farbe muss er haben: er hat sozusagen den Farbenraum um sich. Der Ton muss eine Höhe haben, der Gegenstand des Tastsinnes eine Härte usw.",
+   "en": "A spatial object must lie in infinite space. (A point in space is a place for an argument.) A speck in a visual field need not be red, but it must have a colour; it has, so to speak, a colour space round it. A tone must have a pitch, the object of the sense of touch a hardness, etc."
+  },
+  {
+   "n": "2.014",
+   "de": "Die Gegenstände enthalten die Möglichkeit aller Sachlagen.",
+   "en": "Objects contain the possibility of all states of affairs."
+  },
+  {
+   "n": "2.0141",
+   "de": "Die Möglichkeit seines Vorkommens in Sachverhalten, ist die Form des Gegenstandes.",
+   "en": "The possibility of its occurrence in atomic facts is the form of the object."
+  },
+  {
+   "n": "2.02",
+   "de": "Der Gegenstand ist einfach.",
+   "en": "The object is simple."
+  },
+  {
+   "n": "2.0201",
+   "de": "Jede Aussage über Komplexe lässt sich in eine Aussage über deren Bestandteile und in diejenigen Sätze zerlegen, welche die Komplexe vollständig beschreiben.",
+   "en": "Every statement about complexes can be analysed into a statement about their constituent parts, and into those propositions which completely describe the complexes."
+  },
+  {
+   "n": "2.021",
+   "de": "Die Gegenstände bilden die Substanz der Welt. Darum können sie nicht zusammengesetzt sein.",
+   "en": "Objects form the substance of the world. Therefore they cannot be compound."
+  },
+  {
+   "n": "2.0211",
+   "de": "Hätte die Welt keine Substanz, so würde, ob ein Satz Sinn hat, davon abhängen, ob ein anderer Satz wahr ist.",
+   "en": "If the world had no substance, then whether a proposition had sense would depend on whether another proposition was true."
+  },
+  {
+   "n": "2.0212",
+   "de": "Es wäre dann unmöglich, ein Bild der Welt (wahr oder falsch) zu entwerfen.",
+   "en": "It would then be impossible to form a picture of the world (true or false)."
+  },
+  {
+   "n": "2.022",
+   "de": "Es ist offenbar, dass auch eine von der wirklichen noch so verschieden gedachte Welt Etwas—eine Form—mit der wirklichen gemein haben muss.",
+   "en": "It is clear that however different from the real one an imagined world may be, it must have something—a form—in common with the real world."
+  },
+  {
+   "n": "2.023",
+   "de": "Diese feste Form besteht eben aus den Gegenständen.",
+   "en": "This fixed form consists of the objects."
+  },
+  {
+   "n": "2.0231",
+   "de": "Die Substanz der Welt kann nur eine Form und keine materiellen Eigenschaften bestimmen. Denn diese werden erst durch die Sätze dar\\-ge\\-stellt—erst durch die Konfiguration der Gegenstände gebildet.",
+   "en": "The substance of the world can only determine a form and not any material properties. For these are first presented by the propositions—first formed by the configuration of the objects."
+  },
+  {
+   "n": "2.0232",
+   "de": "Beiläufig gesprochen: Die Gegenstände sind farblos.",
+   "en": "Roughly speaking: objects are colourless."
+  },
+  {
+   "n": "2.0233",
+   "de": "Zwei Gegenstände von der gleichen logischen Form sind—ab\\-ge\\-se\\-hen von ihren externen Eigenschaften—von einander nur dadurch unterschieden, dass sie verschieden sind.",
+   "en": "Two objects of the same logical form are—apart from their external prop\\-er\\-ties—only differentiated from one another in that they are different."
+  },
+  {
+   "n": "2.02331",
+   "de": "Entweder ein Ding hat Eigenschaften, die kein anderes hat, dann kann man es ohneweiteres durch eine Beschreibung aus den anderen herausheben, und darauf hinweisen; oder aber, es gibt mehrere Dinge, die ihre sämtlichen Eigenschaften gemeinsam haben, dann ist es überhaupt unmöglich auf eines von ihnen zu zeigen. Denn, ist das Ding durch nichts hervorgehoben, so kann ich es nicht hervorheben, denn sonst ist es eben hervorgehoben.",
+   "en": "Either a thing has properties which no other has, and then one can distinguish it straight away from the others by a description and refer to it; or, on the other hand, there are several things which have the totality of their properties in common, and then it is quite impossible to point to any one of them. For if a thing is not distinguished by anything, I cannot distinguish it—for otherwise it would be distinguished."
+  },
+  {
+   "n": "2.024",
+   "de": "Die Substanz ist das, was unabhängig von dem was der Fall ist, besteht.",
+   "en": "Substance is what exists independently of what is the case."
+  },
+  {
+   "n": "2.025",
+   "de": "Sie ist Form und Inhalt.",
+   "en": "It is form and content."
+  },
+  {
+   "n": "2.0251",
+   "de": "Raum, Zeit und Farbe (Färbigkeit) sind Formen der Gegenstände.",
+   "en": "Space, time and colour (colouredness) are forms of objects."
+  },
+  {
+   "n": "2.026",
+   "de": "Nur wenn es Gegenstände gibt, kann es eine feste Form der Welt geben.",
+   "en": "Only if there are objects can there be a fixed form of the world."
+  },
+  {
+   "n": "2.027",
+   "de": "Das Feste, das Bestehende und der Gegenstand sind Eins.",
+   "en": "The fixed, the existent and the object are one."
+  },
+  {
+   "n": "2.0271",
+   "de": "Der Gegenstand ist das Feste, Bestehende; die Konfiguration ist das Wechselnde, Unbeständige.",
+   "en": "The object is the fixed, the existent; the configuration is the changing, the variable."
+  },
+  {
+   "n": "2.0272",
+   "de": "Die Konfiguration der Gegenstände bildet den Sachverhalt.",
+   "en": "The configuration of the objects forms the atomic fact."
+  },
+  {
+   "n": "2.03",
+   "de": "Im Sachverhalt hängen die Gegenstände ineinander, wie die Glieder einer Kette.",
+   "en": "In the atomic fact objects hang one in another, like the members of a chain."
+  },
+  {
+   "n": "2.031",
+   "de": "Im Sachverhalt verhalten sich die Gegenstände in bestimmter Art und Weise zueinander.",
+   "en": "In the atomic fact the objects are combined in a definite way."
+  },
+  {
+   "n": "2.032",
+   "de": "Die Art und Weise, wie die Gegenstände im Sachverhalt zusammenhängen, ist die Struktur des Sachverhaltes.",
+   "en": "The way in which objects hang together in the atomic fact is the structure of the atomic fact."
+  },
+  {
+   "n": "2.033",
+   "de": "Die Form ist die Möglichkeit der Struktur.",
+   "en": "The form is the possibility of the structure."
+  },
+  {
+   "n": "2.034",
+   "de": "Die Struktur der Tatsache besteht aus den Strukturen der Sachverhalte.",
+   "en": "The structure of the fact consists of the structures of the atomic facts."
+  },
+  {
+   "n": "2.04",
+   "de": "Die Gesamtheit der bestehenden Sachverhalte ist die Welt.",
+   "en": "The totality of existent atomic facts is the world."
+  },
+  {
+   "n": "2.05",
+   "de": "Die Gesamtheit der bestehenden Sachverhalte bestimmt auch, welche Sachverhalte nicht bestehen.",
+   "en": "The totality of existent atomic facts also determines which atom\\-ic facts do not exist."
+  },
+  {
+   "n": "2.06",
+   "de": "Das Bestehen und Nichtbestehen von Sachverhalten ist die Wirklichkeit. (Das Bestehen von Sachverhalten nennen wir auch eine positive, das Nichtbestehen eine negative Tatsache.)",
+   "en": "The existence and non-existence of atomic facts is the reality. (The existence of atomic facts we also call a positive fact, their non-existence a negative fact.)"
+  },
+  {
+   "n": "2.061",
+   "de": "Die Sachverhalte sind von einander unabhängig.",
+   "en": "Atomic facts are independent of one another."
+  },
+  {
+   "n": "2.062",
+   "de": "Aus dem Bestehen oder Nichtbestehen eines Sachverhaltes kann nicht auf das Bestehen oder Nichtbestehen eines anderen geschlossen werden.",
+   "en": "From the existence or non-existence of an atomic fact we cannot infer the existence or non-existence of another."
+  },
+  {
+   "n": "2.063",
+   "de": "Die gesamte Wirklichkeit ist die Welt.",
+   "en": "The total reality is the world."
+  },
+  {
+   "n": "2.1",
+   "de": "Wir machen uns Bilder der Tatsachen.",
+   "en": "We make to ourselves pictures of facts."
+  },
+  {
+   "n": "2.11",
+   "de": "Das Bild stellt die Sachlage im logischen Raume, das Bestehen und Nichtbestehen von Sachverhalten vor.",
+   "en": "The picture presents the facts in logical space, the existence and non-ex\\-is\\-tence of atomic facts."
+  },
+  {
+   "n": "2.12",
+   "de": "Das Bild ist ein Modell der Wirklichkeit.",
+   "en": "The picture is a model of reality."
+  },
+  {
+   "n": "2.13",
+   "de": "Den Gegenständen entsprechen im Bilde die Elemente des Bildes.",
+   "en": "To the objects correspond in the picture the elements of the picture."
+  },
+  {
+   "n": "2.131",
+   "de": "Die Elemente des Bildes vertreten im Bild die Gegenstände.",
+   "en": "The elements of the picture stand, in the picture, for the objects."
+  },
+  {
+   "n": "2.14",
+   "de": "Das Bild besteht darin, dass sich seine Elemente in bestimmter Art und Weise zu einander verhalten.",
+   "en": "The picture consists in the fact that its elements are combined with one another in a definite way."
+  },
+  {
+   "n": "2.141",
+   "de": "Das Bild ist eine Tatsache.",
+   "en": "The picture is a fact."
+  },
+  {
+   "n": "2.15",
+   "de": "Dass sich die Elemente des Bildes in bestimmter Art und Weise zu einander verhalten stellt vor, dass sich die Sachen so zu einander verhalten. Dieser Zusammenhang der Elemente des Bildes heisse seine Struktur und ihre Möglichkeit seine Form der Abbildung.",
+   "en": "That the elements of the picture are combined with one another in a definite way, represents that the things are so combined with one another. This connexion of the elements of the picture is called its structure, and the possibility of this structure is called the form of representation of the picture."
+  },
+  {
+   "n": "2.151",
+   "de": "Die Form der Abbildung ist die Möglichkeit, dass sich die Dinge so zu einander verhalten, wie die Elemente des Bildes.",
+   "en": "The form of representation is the possibility that the things are combined with one another as are the elements of the picture."
+  },
+  {
+   "n": "2.1511",
+   "de": "Das Bild ist so mit der Wirklichkeit verknüpft; es reicht bis zu ihr.",
+   "en": "Thus the picture is linked with reality; it reaches up to it."
+  },
+  {
+   "n": "2.1512",
+   "de": "Es ist wie ein Massstab an die Wirklichkeit angelegt.",
+   "en": "It is like a scale applied to reality."
+  },
+  {
+   "n": "2.15121",
+   "de": "Nur die äussersten Punkte der Teilstriche berühren den zu messenden Gegenstand.",
+   "en": "Only the outermost points of the dividing lines touch the object to be measured."
+  },
+  {
+   "n": "2.1513",
+   "de": "Nach dieser Auffassung gehört also zum Bilde auch noch die abbildende Beziehung, die es zum Bild macht.",
+   "en": "According to this view the representing relation which makes it a picture, also belongs to the picture."
+  },
+  {
+   "n": "2.1514",
+   "de": "Die abbildende Beziehung besteht aus den Zuordnungen der Elemente des Bildes und der Sachen.",
+   "en": "The representing relation consists of the co-ordinations of the elements of the picture and the things."
+  },
+  {
+   "n": "2.1515",
+   "de": "Diese Zuordnungen sind gleichsam die Fühler der Bildelemente, mit denen das Bild die Wirklichkeit berührt.",
+   "en": "These co-ordinations are as it were the feelers of its elements with which the picture touches reality."
+  },
+  {
+   "n": "2.16",
+   "de": "Die Tatsache muss um Bild zu sein, etwas mit dem Abgebildeten gemeinsam haben.",
+   "en": "In order to be a picture a fact must have something in common with what it pictures."
+  },
+  {
+   "n": "2.161",
+   "de": "In Bild und Abgebildetem muss etwas identisch sein, damit das eine überhaupt ein Bild des anderen sein kann.",
+   "en": "In the picture and the pictured there must be something identical in order that the one can be a picture of the other at all."
+  },
+  {
+   "n": "2.17",
+   "de": "Was das Bild mit der Wirklichkeit gemein haben muss, um sie auf seine Art und Weise—richtig oder falsch—abbilden zu können, ist seine Form der Abbildung.",
+   "en": "What the picture must have in common with reality in order to be able to represent it after its manner—rightly or falsely—is its form of representation."
+  },
+  {
+   "n": "2.171",
+   "de": "Das Bild kann jede Wirklichkeit abbilden, deren Form es hat. Das räumliche Bild alles Räumliche, das farbige alles Farbige, etc.",
+   "en": "The picture can represent every reality whose form it has. The spatial picture, everything spatial, the coloured, everything coloured, etc."
+  },
+  {
+   "n": "2.172",
+   "de": "Seine Form der Abbildung aber, kann das Bild nicht abbilden; es weist sie auf.",
+   "en": "The picture, however, cannot represent its form of representation; it shows it forth."
+  },
+  {
+   "n": "2.173",
+   "de": "Das Bild stellt sein Objekt von ausserhalb dar (sein Standpunkt ist seine Form der Darstellung), darum stellt das Bild sein Objekt richtig oder falsch dar.",
+   "en": "The picture represents its object from without (its standpoint is its form of representation), therefore the picture represents its object rightly or falsely."
+  },
+  {
+   "n": "2.174",
+   "de": "Das Bild kann sich aber nicht ausserhalb seiner Form der Darstellung stellen.",
+   "en": "But the picture cannot place itself outside of its form of representation."
+  },
+  {
+   "n": "2.18",
+   "de": "Was jedes Bild, welcher Form immer, mit der Wirklichkeit gemein haben muss, um sie überhaupt—richtig oder falsch—ab\\-bil\\-den zu können, ist die logische Form, das ist, die Form der Wirklichkeit.",
+   "en": "What every picture, of whatever form, must have in common with reality in order to be able to represent it at all—rightly or falsely—is the logical form, that is, the form of reality."
+  },
+  {
+   "n": "2.181",
+   "de": "Ist die Form der Abbildung die logische Form, so heisst das Bild das logische Bild.",
+   "en": "If the form of representation is the logical form, then the picture is called a logical picture."
+  },
+  {
+   "n": "2.182",
+   "de": "Jedes Bild ist auch ein logisches. (Dagegen ist z. B. nicht jedes Bild ein räumliches.)",
+   "en": "Every picture is also a logical picture. (On the other hand, for example, not every picture is spatial.)"
+  },
+  {
+   "n": "2.19",
+   "de": "Das logische Bild kann die Welt abbilden.",
+   "en": "The logical picture can depict the world."
+  },
+  {
+   "n": "2.2",
+   "de": "Das Bild hat mit dem Abgebildeten die logische Form der Abbildung gemein.",
+   "en": "The picture has the logical form of representation in common with what it pictures."
+  },
+  {
+   "n": "2.201",
+   "de": "Das Bild bildet die Wirklichkeit ab, indem es eine Möglichkeit des Bestehens und Nichtbestehens von Sachverhalten darstellt.",
+   "en": "The picture depicts reality by representing a possibility of the existence and non-existence of atomic facts."
+  },
+  {
+   "n": "2.202",
+   "de": "Das Bild stellt eine mögliche Sachlage im logischen Raume dar.",
+   "en": "The picture represents a possible state of affairs in logical space."
+  },
+  {
+   "n": "2.203",
+   "de": "Das Bild enthält die Möglichkeit der Sachlage, die es darstellt.",
+   "en": "The picture contains the possibility of the state of affairs which it represents."
+  },
+  {
+   "n": "2.21",
+   "de": "Das Bild stimmt mit der Wirklichkeit überein oder nicht; es ist richtig oder unrichtig, wahr oder falsch.",
+   "en": "The picture agrees with reality or not; it is right or wrong, true or false."
+  },
+  {
+   "n": "2.22",
+   "de": "{ Das Bild stellt dar, was es darstellt, unabhängig von seiner Wahr- oder Falschheit, durch die Form der Abbildung.}",
+   "en": "The picture represents what it represents, independently of its truth or falsehood, through the form of representation."
+  },
+  {
+   "n": "2.221",
+   "de": "Was das Bild darstellt, ist sein Sinn.",
+   "en": "What the picture represents is its sense."
+  },
+  {
+   "n": "2.222",
+   "de": "In der Übereinstimmung oder Nichtübereinstimmung seines Sinnes mit der Wirklichkeit, besteht seine Wahrheit oder Falschheit.",
+   "en": "In the agreement or disagreement of its sense with reality, its truth or falsity consists."
+  },
+  {
+   "n": "2.223",
+   "de": "Um zu erkennen, ob das Bild wahr oder falsch ist, müssen wir es mit der Wirklichkeit vergleichen.",
+   "en": "In order to discover whether the picture is true or false we must compare it with reality."
+  },
+  {
+   "n": "2.224",
+   "de": "Aus dem Bild allein ist nicht zu erkennen, ob es wahr oder falsch ist.",
+   "en": "It cannot be discovered from the picture alone whether it is true or false."
+  },
+  {
+   "n": "2.225",
+   "de": "Ein a priori wahres Bild gibt es nicht.",
+   "en": "There is no picture which is a priori true."
+  },
+  {
+   "n": "3",
+   "de": "Das logische Bild der Tatsachen ist der Gedanke.",
+   "en": "The logical picture of the facts is the thought."
+  },
+  {
+   "n": "3.001",
+   "de": "„Ein Sachverhalt ist denkbar“ heisst: Wir können uns ein Bild von ihm machen.",
+   "en": "\"An atomic fact is thinkable\"—means: we can imagine it."
+  },
+  {
+   "n": "3.01",
+   "de": "Die Gesamtheit der wahren Gedanken sind ein Bild der Welt.",
+   "en": "The totality of true thoughts is a picture of the world."
+  },
+  {
+   "n": "3.02",
+   "de": "Der Gedanke enthält die Möglichkeit der Sachlage die er denkt. Was denkbar ist, ist auch möglich.",
+   "en": "The thought contains the possibility of the state of affairs which it thinks. What is thinkable is also possible."
+  },
+  {
+   "n": "3.03",
+   "de": "Wir können nichts Unlogisches denken, weil wir sonst unlogisch denken müssten.",
+   "en": "We cannot think anything unlogical, for otherwise we should have to think unlogically."
+  },
+  {
+   "n": "3.031",
+   "de": "Man sagte einmal, dass Gott alles schaffen könne, nur nichts, was den logischen Gesetzen zuwider wäre.—Wir könnten nämlich von einer „unlogischen“ Welt nicht sagen, wie sie aussähe.",
+   "en": "It used to be said that God could create everything, except what was contrary to the laws of logic. The truth is, we could not say of an \"unlogical\" world how it would look."
+  },
+  {
+   "n": "3.032",
+   "de": "Etwas „der Logik widersprechendes“ in der Sprache darstellen, kann man ebensowenig, wie in der Geometrie eine den Gesetzen des Raumes widersprechende Figur durch ihre Koordinaten darstellen; oder die Koordinaten eines Punktes angeben, welcher nicht existiert.",
+   "en": "To present in language anything which \"contradicts logic\" is as impossible as in geometry to present by its co-ordinates a figure which contradicts the laws of space; or to give the co-ordinates of a point which does not exist."
+  },
+  {
+   "n": "3.0321",
+   "de": "Wohl können wir einen Sachverhalt räumlich darstellen, welcher den Gesetzen der Physik, aber keinen, der den Gesetzen der Geometrie zuwiderliefe.",
+   "en": "We could present spatially an atomic fact which contradicted the laws of physics, but not one which contradicted the laws of geometry."
+  },
+  {
+   "n": "3.04",
+   "de": "Ein a priori richtiger Gedanke wäre ein solcher, dessen Möglichkeit seine Wahrheit bedingte.",
+   "en": "An a priori true thought would be one whose possibility guaranteed its truth."
+  },
+  {
+   "n": "3.05",
+   "de": "Nur so könnten wir a priori wissen, dass ein Gedanke wahr ist, wenn aus dem Gedanken selbst (ohne Vergleichsobjekt) seine Wahrheit zu erkennen wäre.",
+   "en": "We could only know a priori that a thought is true if its truth was to be recognized from the thought itself (without an object of comparison)."
+  },
+  {
+   "n": "3.1",
+   "de": "Im Satz drückt sich der Gedanke sinnlich wahrnehmbar aus.",
+   "en": "In the proposition the thought is expressed perceptibly through the senses."
+  },
+  {
+   "n": "3.11",
+   "de": "{ Wir benützen das sinnlich wahrnehmbare Zeichen (Laut- oder Schriftzeichen etc.) des Satzes als Projektion der möglichen Sachlage.} Die Projektionsmethode ist das Denken des Satz-Sinnes.",
+   "en": "We use the sensibly perceptible sign (sound or written sign, etc.) of the proposition as a projection of the possible state of affairs. The method of projection is the thinking of the sense of the proposition."
+  },
+  {
+   "n": "3.12",
+   "de": "Das Zeichen, durch welches wir den Gedanken ausdrücken, nenne ich das Satzzeichen. Und der Satz ist das Satzzeichen in seiner projektiven Beziehung zur Welt.",
+   "en": "The sign through which we express the thought I call the propositional sign. And the proposition is the propositional sign in its projective relation to the world."
+  },
+  {
+   "n": "3.13",
+   "de": "Zum Satz gehört alles, was zur Projektion gehört; aber nicht das Projizierte. Also die Möglichkeit des Projizierten, aber nicht dieses selbst. Im Satz ist also sein Sinn noch nicht enthalten, wohl aber die Möglichkeit ihn auszudrücken. („Der Inhalt des Satzes“ heisst der Inhalt des sinnvollen Satzes.) Im Satz ist die Form seines Sinnes enthalten, aber nicht dessen Inhalt.",
+   "en": "To the proposition belongs everything which belongs to the projection; but not what is projected. Therefore the possibility of what is projected but not this itself. In the proposition, therefore, its sense is not yet contained, but the possibility of expressing it. (\"The content of the proposition\" means the content of the significant proposition.) In the proposition the form of its sense is contained, but not its content."
+  },
+  {
+   "n": "3.14",
+   "de": "Das Satzzeichen besteht darin, dass sich seine Elemente, die Wörter, in ihm auf bestimmte Art und Weise zu einander verhalten. Das Satzzeichen ist eine Tatsache.",
+   "en": "The propositional sign consists in the fact that its elements, the words, are combined in it in a definite way. The propositional sign is a fact."
+  },
+  {
+   "n": "3.141",
+   "de": "Der Satz ist kein Wörtergemisch.—(Wie das musikalische Thema kein Gemisch von Tönen.) Der Satz ist artikuliert.",
+   "en": "The proposition is not a mixture of words (just as the musical theme is not a mixture of tones). The proposition is articulate."
+  },
+  {
+   "n": "3.142",
+   "de": "Nur Tatsachen können einen Sinn ausdrücken, eine Klasse von Namen kann es nicht.",
+   "en": "Only facts can express a sense, a class of names cannot."
+  },
+  {
+   "n": "3.143",
+   "de": "Dass das Satzzeichen eine Tatsache ist, wird durch die gewöhnliche Ausdrucksform der Schrift oder des Druckes verschleiert. Denn im gedruckten Satz z. B. sieht das Satzzeichen nicht wesentlich verschieden aus vom Wort. (So war es möglich, dass Frege den Satz einen zusammengesetzten Namen nannte.)",
+   "en": "That the propositional sign is a fact is concealed by the ordinary form of expression, written or printed. (For in the printed proposition, for example, the sign of a proposition does not appear essentially different from a word. Thus it was possible for Frege to call the proposition a compounded name.)"
+  },
+  {
+   "n": "3.1431",
+   "de": "Sehr klar wird das Wesen des Satzzeichens, wenn wir es uns, statt aus Schriftzeichen, aus räumlichen Gegenständen (etwa Tischen, Stühlen, Büchern) zusammengesetzt denken. Die gegenseitige räumliche Lage dieser Dinge drückt dann den Sinn des Satzes aus.",
+   "en": "The essential nature of the propositional sign becomes very clear when we imagine it made up of spatial objects (such as tables, chairs, books) instead of written signs. The mutual spatial position of these things then expresses the sense of the proposition."
+  },
+  {
+   "n": "3.1432",
+   "de": "Nicht: „Das komplexe Zeichen \\glqaRb\\grq sagt, dass a in der Beziehung R zu b steht“, sondern: Dass „a“ in einer gewissen Beziehung zu „b“ steht, sagt, dass aRb.",
+   "en": "We must not say, \"The complex sign ‘aRb’ says ‘a stands in relation R to b’\"; but we must say, \"That ‘a’ stands in a certain relation to ‘b’ says that aRb\"."
+  },
+  {
+   "n": "3.144",
+   "de": "Sachlagen kann man beschreiben, nicht benennen. (Namen gleichen Punkten, Sätze Pfeilen, sie haben Sinn.)",
+   "en": "States of affairs can be described but not named. (Names resemble points; propositions resemble arrows, they have sense.)"
+  },
+  {
+   "n": "3.2",
+   "de": "Im Satze kann der Gedanke so ausgedrückt sein, dass den Gegenständen des Gedankens Elemente des Satzzeichens entsprechen.",
+   "en": "In propositions thoughts can be so expressed that to the objects of the thoughts correspond the elements of the propositional sign."
+  },
+  {
+   "n": "3.201",
+   "de": "Diese Elemente nenne ich „einfache Zeichen“ und den Satz „vollständig analysiert“.",
+   "en": "These elements I call \"simple signs\" and the proposition \"completely analysed\"."
+  },
+  {
+   "n": "3.202",
+   "de": "Die im Satze angewandten einfachen Zeichen heissen Namen.",
+   "en": "The simple signs employed in propositions are called names."
+  },
+  {
+   "n": "3.203",
+   "de": "Der Name bedeutet den Gegenstand. Der Gegenstand ist seine Bedeutung. („A“ ist dasselbe Zeichen wie „A“.)",
+   "en": "The name means the object. The object is its meaning. (\"A\" is the same sign as \"A\".)"
+  },
+  {
+   "n": "3.21",
+   "de": "Der Konfiguration der einfachen Zeichen im Satzzeichen entspricht die Konfiguration der Gegenstände in der Sachlage.",
+   "en": "To the configuration of the simple signs in the propositional sign corresponds the configuration of the objects in the state of affairs."
+  },
+  {
+   "n": "3.22",
+   "de": "Der Name vertritt im Satz den Gegenstand.",
+   "en": "In the proposition the name represents the object."
+  },
+  {
+   "n": "3.221",
+   "de": "Die Gegenstände kann ich nur nennen. Zeichen vertreten sie. Ich kann nur von ihnen sprechen, sie aussprechen kann ich nicht. Ein Satz kann nur sagen, wie ein Ding ist, nicht was es ist.",
+   "en": "Objects I can only name. Signs represent them. I can only speak of them. I cannot assert them. A proposition can only say how a thing is, not what it is."
+  },
+  {
+   "n": "3.23",
+   "de": "Die Forderung der Möglichkeit der einfachen Zeichen ist die Forderung der Bestimmtheit des Sinnes.",
+   "en": "The postulate of the possibility of the simple signs is the postulate of the determinateness of the sense."
+  },
+  {
+   "n": "3.24",
+   "de": "Der Satz, welcher vom Komplex handelt, steht in interner Beziehung zum Satze, der von dessen Bestandteil handelt. Der Komplex kann nur durch seine Beschreibung gegeben sein, und diese wird stimmen oder nicht stimmen. Der Satz, in welchem von einem Komplex die Rede ist, wird, wenn dieser nicht existiert, nicht unsinnig, sondern einfach falsch sein. Dass ein Satzelement einen Komplex bezeichnet, kann man aus einer Unbestimmtheit in den Sätzen sehen, worin es vorkommt. Wir wissen, durch diesen Satz ist noch nicht alles bestimmt. (Die Allgemeinheitsbezeichnung enthält ja ein Urbild.) Die Zusammenfassung des Symbols eines Komplexes in ein einfaches Symbol kann durch eine Definition ausgedrückt werden.",
+   "en": "A proposition about a complex stands in internal relation to the proposition about its constituent part. A complex can only be given by its description, and this will either be right or wrong. The proposition in which there is mention of a complex, if this does not exist, becomes not nonsense but simply false. That a propositional element signifies a complex can be seen from an indeterminateness in the propositions in which it occurs. We know that everything is not yet determined by this proposition. (The notation for generality contains a prototype.) The combination of the symbols of a complex in a simple symbol can be expressed by a definition."
+  },
+  {
+   "n": "3.25",
+   "de": "Es gibt eine und nur eine vollständige Analyse des Satzes.",
+   "en": "There is one and only one complete analysis of the proposition."
+  },
+  {
+   "n": "3.251",
+   "de": "Der Satz drückt auf bestimmte, klar angebbare Weise aus, was er ausdrückt: Der Satz ist artikuliert.",
+   "en": "The proposition expresses what it expresses in a definite and clearly specifiable way: the proposition is articulate."
+  },
+  {
+   "n": "3.26",
+   "de": "Der Name ist durch keine Definition weiter zu zergliedern: er ist ein Urzeichen.",
+   "en": "The name cannot be analysed further by any definition. It is a primitive sign."
+  },
+  {
+   "n": "3.261",
+   "de": "Jedes definierte Zeichen bezeichnet über jene Zeichen, durch welche es definiert wurde; und die Definitionen weisen den Weg. Zwei Zeichen, ein Urzeichen, und ein durch Urzeichen definiertes, können nicht auf dieselbe Art und Weise bezeichnen. Namen kann man nicht durch Definitionen auseinanderlegen. (Kein Zeichen, welches allein, selbständig eine Bedeutung hat.)",
+   "en": "Every defined sign signifies via those signs by which it is defined, and the definitions show the way. Two signs, one a primitive sign, and one defined by primitive signs, cannot signify in the same way. Names cannot be taken to pieces by definition (nor any sign which alone and independently has a meaning)."
+  },
+  {
+   "n": "3.262",
+   "de": "Was in den Zeichen nicht zum Ausdruck kommt, das zeigt ihre Anwendung. Was die Zeichen verschlucken, das spricht ihre Anwendung aus.",
+   "en": "What does not get expressed in the sign is shown by its application. What the signs conceal, their application declares."
+  },
+  {
+   "n": "3.263",
+   "de": "Die Bedeutungen von Urzeichen können durch Erläuterungen erklärt werden. Erläuterungen sind Sätze, welche die Urzeichen enthalten. Sie können also nur verstanden werden, wenn die Bedeutungen dieser Zeichen bereits bekannt sind.",
+   "en": "The meanings of primitive signs can be explained by elucidations. Elucidations are propositions which contain the primitive signs. They can, therefore, only be understood when the meanings of these signs are already known."
+  },
+  {
+   "n": "3.3",
+   "de": "Nur der Satz hat Sinn; nur im Zusammenhange des Satzes hat ein Name Bedeutung.",
+   "en": "Only the proposition has sense; only in the context of a proposition has a name meaning."
+  },
+  {
+   "n": "3.31",
+   "de": "Jeden Teil des Satzes, der seinen Sinn charakterisiert, nenne ich einen Ausdruck (ein Symbol). (Der Satz selbst ist ein Ausdruck.) Ausdruck ist alles, für den Sinn des Satzes wesentliche, was Sätze miteinander gemein haben können. Der Ausdruck kennzeichnet eine Form und einen Inhalt.",
+   "en": "Every part of a proposition which characterizes its sense I call an expression (a symbol). (The proposition itself is an expression.) Expressions are everything—essential for the sense of the prop\\-o\\-si\\-tion—that propositions can have in common with one another. An expression characterizes a form and a content."
+  },
+  {
+   "n": "3.311",
+   "de": "Der Ausdruck setzt die Formen aller Sätze voraus, in welchen er vorkommen kann. Er ist das gemeinsame charakteristische Merkmal einer Klasse von Sätzen.",
+   "en": "An expression presupposes the forms of all propositions in which it can occur. It is the common characteristic mark of a class of propositions."
+  },
+  {
+   "n": "3.312",
+   "de": "Er wird also dargestellt durch die allgemeine Form der Sätze, die er charakterisiert. Und zwar wird in dieser Form der Ausdruck konstant und alles übrige variabel sein.",
+   "en": "It is therefore represented by the general form of the propositions which it characterizes. And in this form the expression is constant and everything else variable."
+  },
+  {
+   "n": "3.313",
+   "de": "Der Ausdruck wird also durch eine Variable dargestellt, deren Werte die Sätze sind, die den Ausdruck enthalten. (Im Grenzfall wird die Variable zur Konstanten, der Ausdruck zum Satz.) Ich nenne eine solche Variable „Satzvariable“.",
+   "en": "An expression is thus presented by a variable, whose values are the propositions which contain the expression. (In the limiting case the variables become constants, the expression a proposition.) I call such a variable a \"propositional variable\"."
+  },
+  {
+   "n": "3.314",
+   "de": "Der Ausdruck hat nur im Satz Bedeutung. Jede Variable lässt sich als Satzvariable auffassen. (Auch der variable Name.)",
+   "en": "An expression has meaning only in a proposition. Every variable can be conceived as a propositional variable. (Including the variable name.)"
+  },
+  {
+   "n": "3.315",
+   "de": "Verwandeln wir einen Bestandteil eines Satzes in eine Variable, so gibt es eine Klasse von Sätzen, welche sämtlich Werte des so entstandenen variablen Satzes sind. Diese Klasse hängt im allgemeinen noch davon ab, was wir, nach willkürlicher Übereinkunft, mit Teilen jenes Satzes meinen. Verwandeln wir aber alle jene Zeichen, deren Bedeutung willkürlich bestimmt wurde, in Variable, so gibt es nun noch immer eine solche Klasse. Diese aber ist nun von keiner Übereinkunft abhängig, sondern nur noch von der Natur des Satzes. Sie entspricht einer logischen Form—einem logischen Urbild.",
+   "en": "If we change a constituent part of a proposition into a variable, there is a class of propositions which are all the values of the resulting variable proposition. This class in general still depends on what, by arbitrary agreement, we mean by parts of that proposition. But if we change all those signs, whose meaning was arbitrarily determined, into variables, there always remains such a class. But this is now no longer dependent on any agreement; it depends only on the nature of the proposition. It corresponds to a logical form, to a logical prototype."
+  },
+  {
+   "n": "3.316",
+   "de": "Welche Werte die Satzvariable annehmen darf, wird festgesetzt. Die Festsetzung der Werte ist die Variable.",
+   "en": "What values the propositional variable can assume is determined. The determination of the values is the variable."
+  },
+  {
+   "n": "3.317",
+   "de": "Die Festsetzung der Werte der Satzvariablen ist die Angabe der Sätze, deren gemeinsames Merkmal die Variable ist. Die Festsetzung ist eine Beschreibung dieser Sätze. Die Festsetzung wird also nur von Symbolen, nicht von deren Bedeutung handeln. Und nur dies ist der Festsetzung wesentlich, dass sie nur eine Beschreibung von Symbolen ist und nichts über das Bezeichnete aussagt. Wie die Beschreibung der Sätze geschieht, ist unwesentlich.",
+   "en": "The determination of the values of the propositional variable is done by indicating the propositions whose common mark the variable is. The determination is a description of these propositions. The determination will therefore deal only with symbols not with their meaning. And only this is essential to the determination, that it is only a description of symbols and asserts nothing about what is symbolized. The way in which we describe the propositions is not essential."
+  },
+  {
+   "n": "3.318",
+   "de": "Den Satz fasse ich—wie Frege und Russell—als Funktion der in ihm enthaltenen Ausdrücke auf.",
+   "en": "I conceive the proposition—like Frege and Russell—as a function of the expressions contained in it."
+  },
+  {
+   "n": "3.32",
+   "de": "Das Zeichen ist das sinnlich Wahrnehmbare am Symbol.",
+   "en": "The sign is the part of the symbol perceptible by the senses."
+  },
+  {
+   "n": "3.321",
+   "de": "Zwei verschiedene Symbole können also das Zeichen (Schriftzeichen oder Lautzeichen etc.) miteinander gemein haben—sie bezeichnen dann auf verschiedene Art und Weise.",
+   "en": "Two different symbols can therefore have the sign (the written sign or the sound sign) in common—they then signify in different ways."
+  },
+  {
+   "n": "3.322",
+   "de": "Es kann nie das gemeinsame Merkmal zweier Gegenstände anzeigen, dass wir sie mit demselben Zeichen, aber durch zwei verschiedene Bezeichnungsweisen bezeichnen. Denn das Zeichen ist ja willkürlich. Man könnte also auch zwei verschiedene Zeichen wählen, und wo bliebe dann das Gemeinsame in der Bezeichnung.",
+   "en": "It can never indicate the common characteristic of two objects that we symbolize them with the same signs but by different methods of symbolizing. For the sign is arbitrary. We could therefore equally well choose two different signs and where then would be what was common in the symbolization."
+  },
+  {
+   "n": "3.323",
+   "de": "In der Umgangssprache kommt es ungemein häufig vor, dass dasselbe Wort auf verschiedene Art und Weise bezeichnet—also verschiedenen Symbolen an\\-ge\\-hört—, oder, dass zwei Wörter, die auf verschiedene Art und Weise bezeichnen, äusserlich in der gleichen Weise im Satze angewandt werden. So erscheint das Wort „ist“ als Kopula, als Gleichheitszeichen und als Ausdruck der Existenz; „existieren“ als intransitives Zeitwort wie „gehen“; „identisch“ als Eigenschaftswort; wir reden von Etwas, aber auch davon, dass etwas geschieht. (Im Satze „Grün ist grün“—wo das erste Wort ein Personenname, das letzte ein Eigenschaftswort ist—haben diese Worte nicht einfach verschiedene Bedeutung, sondern es sind verschiedene Symbole.)",
+   "en": "In the language of everyday life it very often happens that the same word signifies in two different ways—and therefore belongs to two different symbols—or that two words, which signify in different ways, are apparently applied in the same way in the proposition. Thus the word \"is\" appears as the copula, as the sign of equality, and as the expression of existence; \"to exist\" as an intransitive verb like \"to go\"; \"identical\" as an adjective; we speak of something but also of the fact of something happening. (In the proposition \"Green is green\"—where the first word is a proper name and the last an adjective—these words have not merely different meanings but they are different symbols.)"
+  },
+  {
+   "n": "3.324",
+   "de": "So entstehen leicht die fundamentalsten Verwechslungen (deren die ganze Philosophie voll ist).",
+   "en": "Thus there easily arise the most fundamental confusions (of which the whole of philosophy is full)."
+  },
+  {
+   "n": "3.325",
+   "de": "Um diesen Irrtümern zu entgehen, müssen wir eine Zeichensprache verwenden, welche sie ausschliesst, indem sie nicht das gleiche Zeichen in verschiedenen Symbolen, und Zeichen, welche auf verschiedene Art bezeichnen, nicht äusserlich auf die gleiche Art verwendet. Eine Zeichensprache also, die der logischen Grammatik—der logischen Syntax—gehorcht. (Die Begriffsschrift Frege’s und Russell’s ist eine solche Sprache, die allerdings noch nicht alle Fehler ausschliesst.)",
+   "en": "In order to avoid these errors, we must employ a symbolism which excludes them, by not applying the same sign in different symbols and by not applying signs in the same way which signify in different ways. A symbolism, that is to say, which obeys the rules of logical grammar—of logical syntax. (The logical symbolism of Frege and Russell is such a language, which, however, does still not exclude all errors.)"
+  },
+  {
+   "n": "3.326",
+   "de": "Um das Symbol am Zeichen zu erkennen, muss man auf den sinnvollen Gebrauch achten.",
+   "en": "In order to recognize the symbol in the sign we must consider the significant use."
+  },
+  {
+   "n": "3.327",
+   "de": "Das Zeichen bestimmt erst mit seiner logisch-syntaktischen Verwendung zusammen eine logische Form.",
+   "en": "The sign determines a logical form only together with its logical syntactic application."
+  },
+  {
+   "n": "3.328",
+   "de": "Wird ein Zeichen nicht gebraucht, so ist es bedeutungslos. Das ist der Sinn der Devise Occams. (Wenn sich alles so verhält als hätte ein Zeichen Bedeutung, dann hat es auch Bedeutung.)",
+   "en": "If a sign is not necessary then it is meaningless. That is the meaning of Occam’s razor. (If everything in the symbolism works as though a sign had meaning, then it has meaning.)"
+  },
+  {
+   "n": "3.33",
+   "de": "In der logischen Syntax darf nie die Bedeutung eines Zeichens eine Rolle spielen; sie muss sich aufstellen lassen, ohne dass dabei von der Bedeutung eines Zeichens die Rede wäre, sie darf nur die Beschreibung der Ausdrücke voraussetzen.",
+   "en": "In logical syntax the meaning of a sign ought never to play a rôle; it must admit of being established without mention being thereby made of the meaning of a sign; it ought to presuppose only the description of the expressions."
+  },
+  {
+   "n": "3.331",
+   "de": "Von dieser Bemerkung sehen wir in Russell’s „Theory of types“ hinüber: Der Irrtum Russell’s zeigt sich darin, dass er bei der Aufstellung der Zeichenregeln von der Bedeutung der Zeichen reden musste.",
+   "en": "From this observation we get a further view—into Russell’s Theory of Types. Russell’s error is shown by the fact that in drawing up his symbolic rules he has to speak of the meaning of the signs."
+  },
+  {
+   "n": "3.332",
+   "de": "Kein Satz kann etwas über sich selbst aussagen, weil das Satzzeichen nicht in sich selbst enthalten sein kann, (das ist die ganze „Theory of types“).",
+   "en": "No proposition can say anything about itself, because the propositional sign cannot be contained in itself (that is the \"whole theory of types\")."
+  },
+  {
+   "n": "3.333",
+   "de": "Eine Funktion kann darum nicht ihr eigenes Argument sein, weil das Funktionszeichen bereits das Urbild seines Arguments enthält und es sich nicht selbst enthalten kann. Nehmen wir nämlich an, die Funktion F (fx) könnte ihr eigenes Argument sein; dann gäbe es also einen Satz: „F(F(fx))“ und in diesem müssen die äussere Funktion F und die innere Funktion F verschiedene Bedeutungen haben, denn die innere hat die Form φ(fx), die äussere, die Form ψ(φ(fx)). Gemeinsam ist den beiden Funktionen nur der Buchstabe „F“, der aber allein nichts bezeichnet. Dies wird sofort klar, wenn wir statt „F(F(u))“ schreiben „(∃φ) : F(φ u) · φ u = Fu“. Hiermit erledigt sich Russell’s Paradox.",
+   "en": "A function cannot be its own argument, because the functional sign already contains the prototype of its own argument and it cannot contain itself. { If, for example, we suppose that the function F(fx) could be its own argument, then there would be a proposition \"F(F(fx))\", and in this the outer function F and the inner function F must have different meanings; for the inner has the form φ(fx), the outer the form ψ(φ(fx)). Common to both functions is only the letter \"F\", which by itself signifies nothing.} This is at once clear, if instead of \"F(F(u))\" we write \"(∃φ) : F(φ u) · φ u = Fu\". Herewith Russell’s paradox vanishes."
+  },
+  {
+   "n": "3.334",
+   "de": "Die Regeln der logischen Syntax müssen sich von selbst verstehen, wenn man nur weiss, wie ein jedes Zeichen bezeichnet.",
+   "en": "The rules of logical syntax must follow of themselves, if we only know how every single sign signifies."
+  },
+  {
+   "n": "3.34",
+   "de": "Der Satz besitzt wesentliche und zufällige Züge. Zufällig sind die Züge, die von der besonderen Art der Hervorbringung des Satzzeichens herrühren. Wesentlich diejenigen, welche allein den Satz befähigen, seinen Sinn auszudrücken.",
+   "en": "A proposition possesses essential and accidental features. Accidental are the features which are due to a particular way of producing the propositional sign. Essential are those which alone enable the proposition to express its sense."
+  },
+  {
+   "n": "3.341",
+   "de": "Das Wesentliche am Satz ist also das, was allen Sätzen, welche den gleichen Sinn ausdrücken können, gemeinsam ist. Und ebenso ist allgemein das Wesentliche am Symbol das, was alle Symbole, die denselben Zweck erfüllen können, gemeinsam haben.",
+   "en": "The essential in a proposition is therefore that which is common to all propositions which can express the same sense. And in the same way in general the essential in a symbol is that which all symbols which can fulfil the same purpose have in common."
+  },
+  {
+   "n": "3.3411",
+   "de": "Man könnte also sagen: Der eigentliche Name ist das, was alle Symbole, die den Gegenstand bezeichnen, gemeinsam haben. Es würde sich so successive ergeben, dass keinerlei Zusammensetzung für den Namen wesentlich ist.",
+   "en": "One could therefore say the real name is that which all symbols, which signify an object, have in common. It would then follow, step by step, that no sort of composition was essential for a name."
+  },
+  {
+   "n": "3.342",
+   "de": "An unseren Notationen ist zwar etwas willkürlich, aber das ist nicht willkürlich: Dass, wenn wir etwas willkürlich bestimmt haben, dann etwas anderes der Fall sein muss. (Dies hängt von dem Wesen der Notation ab.)",
+   "en": "In our notations there is indeed something arbitrary, but this is not arbitrary, namely that if we have determined anything arbitrarily, then something else must be the case. (This results from the essence of the notation.)"
+  },
+  {
+   "n": "3.3421",
+   "de": "{ Eine besondere Bezeichnungsweise mag unwichtig sein, aber wichtig ist es immer, dass diese eine mögliche Bezeichnungsweise ist. Und so verhält es sich in der Philosophie überhaupt: Das Einzelne erweist sich immer wieder als unwichtig, aber die Möglichkeit jedes Einzelnen gibt uns einen Aufschluss über das Wesen der Welt.}",
+   "en": "A particular method of symbolizing may be unimportant, but it is always important that this is a possible method of symbolizing. And this happens as a rule in philosophy: The single thing proves over and over again to be unimportant, but the possibility of every single thing reveals something about the nature of the world."
+  },
+  {
+   "n": "3.343",
+   "de": "Definitionen sind Regeln der Übersetzung von einer Sprache in eine andere. Jede richtige Zeichensprache muss sich in jede andere nach solchen Regeln übersetzen lassen: Dies ist, was sie alle gemeinsam haben.",
+   "en": "Definitions are rules for the translation of one language into another. Every correct symbolism must be translatable into every other according to such rules. It is this which all have in common."
+  },
+  {
+   "n": "3.344",
+   "de": "Das, was am Symbol bezeichnet, ist das Gemeinsame aller jener Symbole, durch die das erste den Regeln der logischen Syntax zufolge ersetzt werden kann.",
+   "en": "What signifies in the symbol is what is common to all those symbols by which it can be replaced according to the rules of logical syntax."
+  },
+  {
+   "n": "3.3441",
+   "de": "Man kann z. B. das Gemeinsame aller Notationen für die Wahrheitsfunktionen so ausdrücken: Es ist ihnen gemeinsam, dass sich alle—z. B.—durch die Notation von „¬{p}“ („nicht p“) und „p ∨ q“ („p oder q“) ersetzen lassen. { (Hiermit ist die Art und Weise gekennzeichnet, wie eine spezielle mögliche Notation uns allgemeine Aufschlüsse geben kann.)}",
+   "en": "We can, for example, express what is common to all notations for the truth-functions as follows: It is common to them that they all, for example, can be replaced by the notations of \"¬{p}\" (\"not p\") and \"p ∨ q\" (\"p or q\"). (Herewith is indicated the way in which a special possible notation can give us general information.)"
+  },
+  {
+   "n": "3.3442",
+   "de": "Das Zeichen des Komplexes löst sich auch bei der Analyse nicht willkürlich auf, so dass etwa seine Auflösung in jedem Satzgefüge eine andere wäre.",
+   "en": "The sign of the complex is not arbitrarily resolved in the analysis, in such a way that its resolution would be different in every propositional structure."
+  },
+  {
+   "n": "3.4",
+   "de": "Der Satz bestimmt einen Ort im logischen Raum. Die Existenz dieses logischen Ortes ist durch die Existenz der Bestandteile allein verbürgt, durch die Existenz des sinnvollen Satzes.",
+   "en": "The proposition determines a place in logical space: the existence of this logical place is guaranteed by the existence of the constituent parts alone, by the existence of the significant proposition."
+  },
+  {
+   "n": "3.41",
+   "de": "Das Satzzeichen und die logischen Koordinaten: Das ist der logische Ort.",
+   "en": "The propositional sign and the logical co-ordinates: that is the logical place."
+  },
+  {
+   "n": "3.411",
+   "de": "Der geometrische und der logische Ort stimmen darin überein, dass beide die Möglichkeit einer Existenz sind.",
+   "en": "The geometrical and the logical place agree in that each is the possibility of an existence."
+  },
+  {
+   "n": "3.42",
+   "de": "Obwohl der Satz nur einen Ort des logischen Raumes bestimmen darf, so muss doch durch ihn schon der ganze logische Raum gegeben sein. (Sonst würden durch die Verneinung, die logische Summe, das logische Produkt, etc. immer neue Elemente—in Ko\\-or\\-di\\-na\\-ti\\-on—eingeführt.) (Das logische Gerüst um das Bild herum bestimmt den logischen Raum. Der Satz durchgreift den ganzen logischen Raum.)",
+   "en": "Although a proposition may only determine one place in logical space, the whole logical space must already be given by it. (Otherwise denial, the logical sum, the logical product, etc., would always introduce new elements—in co-ordination.) (The logical scaffolding round the picture determines the logical space. The proposition reaches through the whole logical space.)"
+  },
+  {
+   "n": "3.5",
+   "de": "Das angewandte, gedachte, Satzzeichen ist der Gedanke.",
+   "en": "The applied, thought, propositional sign is the thought."
+  }
+ ],
+ "前言": {
+  "de": [
+   "Dieses Buch wird vielleicht nur der verstehen, der die Gedanken, die darin ausgedrückt sind——oder doch ähnliche Gedanken——schon selbst einmal gedacht hat.——Es ist also kein Lehrbuch.——Sein Zweck wäre erreicht, wenn es Einem, der es mit Verständnis liest Vergnügen bereitete.",
+   "Das Buch behandelt die philosophischen Probleme und zeigt——wie ich glaube——dass die Fragestellung dieser Probleme auf dem Missverständnis der Logik unserer Sprache beruht. Man könnte den ganzen Sinn des Buches etwa in die Worte fassen: Was sich überhaupt sagen lässt, lässt sich klar sagen; und wovon man nicht reden kann, darüber muss man schweigen.",
+   "Das Buch will also dem Denken eine Grenze ziehen, oder vielmehr——nicht dem Denken, sondern dem Ausdruck der Gedanken: Denn um dem Denken eine Grenze zu ziehen, müssten wir beide Seiten dieser Grenze denken können (wir müssten also denken können, was sich nicht denken lässt).",
+   "Die Grenze wird also nur in der Sprache gezogen werden können und was jenseits der Grenze liegt, wird einfach Unsinn sein.",
+   "Wieweit meine Bestrebungen mit denen anderer Philosophen zusammenfallen, will ich nicht beurteilen. Ja, was ich hier geschrieben habe macht im Einzelnen überhaupt nicht den Anspruch auf Neuheit; und darum gebe ich auch keine Quellen an, weil es mir gleichgültig ist, ob das was ich gedacht habe, vor mir schon ein anderer gedacht hat.",
+   "Nur das will ich erwähnen, dass ich den grossartigen Werken Freges und den Arbeiten meines Freundes Herrn Bertrand Russell einen grossen Teil der Anregung zu meinen Gedanken schulde.",
+   "Wenn diese Arbeit einen Wert hat, so besteht er in Zweierlei. Erstens darin, dass in ihr Gedanken ausgedrückt sind, und dieser Wert wird umso grösser sein, je besser die Gedanken ausgedrückt sind. Je mehr der Nagel auf den Kopf getroffen ist.——Hier bin ich mir bewusst, weit hinter dem Möglichen zurückgeblieben zu sein. Einfach darum, weil meine Kraft zur Bewältigung der Aufgabe zu gering ist.——Mögen andere kommen und es besser machen.",
+   "Dagegen scheint mir die Wahrheit der hier mitgeteilten Gedanken unantastbar und definitiv. Ich bin also der Meinung, die Probleme im Wesentlichen endgültig gelöst zu haben. Und wenn ich mich hierin nicht irre, so besteht nun der Wert dieser Arbeit zweitens darin, dass sie zeigt, wie wenig damit getan ist, dass diese Probleme gelöst sind.",
+   "L. W.　Wien, 1918."
+  ],
+  "en": [
+   "This book will perhaps only be understood by those who have themselves already thought the thoughts which are expressed in it——or similar thoughts. It is therefore not a text-book. Its object would be attained if there were one person who read it with understanding and to whom it afforded pleasure.",
+   "The book deals with the problems of philosophy and shows, as I believe, that the method of formulating these problems rests on the misunderstanding of the logic of our language. Its whole meaning could be summed up somewhat as follows: What can be said at all can be said clearly; and whereof one cannot speak thereof one must be silent.",
+   "The book will, therefore, draw a limit to thinking, or rather——not to thinking, but to the expression of thoughts; for, in order to draw a limit to thinking we should have to be able to think both sides of this limit (we should therefore have to be able to think what cannot be thought).",
+   "The limit can, therefore, only be drawn in language and what lies on the other side of the limit will be simply nonsense.",
+   "How far my efforts agree with those of other philosophers I will not decide. Indeed what I have here written makes no claim to novelty in points of detail; and therefore I give no sources, because it is indifferent to me whether what I have thought has already been thought before me by another.",
+   "I will only mention that to the great works of Frege and the writings of my friend Bertrand Russell I owe in large measure the stimulation of my thoughts.",
+   "If this work has a value it consists in two things. First that in it thoughts are expressed, and this value will be the greater the better the thoughts are expressed. The more the nail has been hit on the head.——Here I am conscious that I have fallen far short of the possible. Simply because my powers are insufficient to cope with the task.——May others come and do it better.",
+   "On the other hand the truth of the thoughts communicated here seems to me unassailable and definitive. I am, therefore, of the opinion that the problems have in essentials been finally solved. And if I am not mistaken in this, then the value of this work secondly consists in the fact that it shows how little has been done when these problems have been solved.",
+   "L. W.　Vienna, 1918."
+  ]
+ },
+ "脚注_命题1": {
+  "de": "Die Decimalzahlen als Nummern der einzelnen Sätze deuten das logische Gewicht der Sätze an, den Nachdruck, der auf ihnen in meiner Darstellung liegt. Die Sätze n.1, n.2, n.3, etc., sind Bemerkungen zum Satze No. n; die Sätze n.m1, n.m2, etc. Bemerkungen zum Satze No. n.m; und so weiter.",
+  "en": "The decimal figures as numbers of the separate propositions indicate the logical importance of the propositions, the emphasis laid upon them in my exposition. The propositions n.1, n.2, n.3, etc., are comments on proposition No. n; the propositions n.m1, n.m2, etc., are comments on the proposition No. n.m; and so on."
+ }
+}
