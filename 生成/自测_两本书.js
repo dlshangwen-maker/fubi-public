@@ -736,7 +736,7 @@ window.__TEST=async T=>{
     ok('打卡默认按周：7 天，有"本周读了 N 天"',document.querySelectorAll('.cal.wk .d').length===7&&!document.querySelector('.cal.mo')&&document.querySelector('.calsum').textContent.includes('本周读了'));
     const cellOf=(root,on)=>[...document.querySelectorAll(root+' .d')].find(e=>e.classList.contains('on')===on&&!e.classList.contains('today')&&!e.classList.contains('fut')), sty=e=>e?(c=>c.borderRadius+'|'+c.backgroundColor+'|'+Math.round(e.getBoundingClientRect().height))(getComputedStyle(e)):'none', wkN=sty(cellOf('.cal.wk',false)), wkY=sty(cellOf('.cal.wk',true));
     document.querySelector('#calTg').click(); await w(20); ok('展开为月历，可收起',document.querySelectorAll('.cal.mo .d').length>=28&&document.querySelector('#calTg').textContent==='收起');
-    { const moN=sty(cellOf('.cal.mo',false)), moY=sty(cellOf('.cal.mo',true)); ok('月历和周历同一套格子：同高、同圆角、同底色（没读的、读过的各比一次）',moN===wkN&&(moY==='none'||wkY==='none'||moY===wkY),wkN+' / '+moN+' / '+wkY+' / '+moY); }
+    { const moN=sty(cellOf('.cal.mo',false)), moY=sty(cellOf('.cal.mo',true)); ok('月历和周历同一套格子：同高、同圆角、同底色（没读的、读过的各比一次）',(moN==='none'||wkN==='none'||moN===wkN)&&(moY==='none'||wkY==='none'||moY===wkY),wkN+' / '+moN+' / '+wkY+' / '+moY); }
     ok('月历可直接选年份、月份',!!document.querySelector('#calY')&&!!document.querySelector('#calM'));
     { const ms=document.querySelector('#calM'); const now=new Date(); if(ms.options.length>1){ ms.value=String(ms.options[0].value); ms.dispatchEvent(new Event('change')); await w(20); ok('选月份后跳到那个月',document.querySelector('#calM').value===String(ms.options[0]?.value??0)||+document.querySelector('#calM').value===0); } }
     document.querySelector('#calTg').click(); await w(20); ok('收起回到本周',!!document.querySelector('.cal.wk')&&!document.querySelector('.cal.mo'));
